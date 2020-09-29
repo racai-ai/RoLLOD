@@ -1,0 +1,731 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns="https://github.com/UniversalDependencies/UD_Romanian-RRT#"
+	xmlns:conll="http://ufal.mff.cuni.cz/conll2009-st/task-description.html#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:terms="http://purl.org/acoli/open-ie/"
+	xmlns:nif="http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+<rdf:Description rdf:about="https://github.com/UniversalDependencies/UD_Romanian-RRT#s1_0">
+	<rdf:type rdf:resource="http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Sentence"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/UniversalDependencies/UD_Romanian-RRT#s1_1">
+	<rdf:type rdf:resource="http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word"/>
+	<conll:WORD>publicul</conll:WORD>
+	<conll:ID>1</conll:ID>
+	<conll:LEMMA>public</conll:LEMMA>
+	<conll:UPOS>NOUN</conll:UPOS>
+	<conll:POS>Ncmsry</conll:POS>
+	<conll:FEAT>Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing</conll:FEAT>
+	<conll:HEAD rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s1_0"/>
+	<conll:EDGE>root</conll:EDGE>
+	<nif:nextWord rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s1_2"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/UniversalDependencies/UD_Romanian-RRT#s1_2">
+	<rdf:type rdf:resource="http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word"/>
+	<conll:WORD>care</conll:WORD>
+	<conll:ID>2</conll:ID>
+	<conll:LEMMA>care</conll:LEMMA>
+	<conll:UPOS>PRON</conll:UPOS>
+	<conll:POS>Pw3--r</conll:POS>
+	<conll:FEAT>Case=Acc,Nom|Person=3|PronType=Int,Rel</conll:FEAT>
+	<conll:HEAD rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s1_3"/>
+	<conll:EDGE>nsubj</conll:EDGE>
+	<nif:nextWord rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s1_3"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/UniversalDependencies/UD_Romanian-RRT#s1_3">
+	<rdf:type rdf:resource="http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word"/>
+	<conll:WORD>urla</conll:WORD>
+	<conll:ID>3</conll:ID>
+	<conll:LEMMA>urla</conll:LEMMA>
+	<conll:UPOS>VERB</conll:UPOS>
+	<conll:POS>Vmii3s</conll:POS>
+	<conll:FEAT>Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin</conll:FEAT>
+	<conll:HEAD rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s1_1"/>
+	<conll:EDGE>acl</conll:EDGE>
+	<nif:nextWord rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s1_4"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/UniversalDependencies/UD_Romanian-RRT#s1_4">
+	<rdf:type rdf:resource="http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word"/>
+	<conll:WORD>râzând</conll:WORD>
+	<conll:ID>4</conll:ID>
+	<conll:LEMMA>râde</conll:LEMMA>
+	<conll:UPOS>VERB</conll:UPOS>
+	<conll:POS>Vmg</conll:POS>
+	<conll:FEAT>VerbForm=Ger</conll:FEAT>
+	<conll:HEAD rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s1_3"/>
+	<conll:EDGE>xcomp</conll:EDGE>
+	<nif:nextWord rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s1_5"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/UniversalDependencies/UD_Romanian-RRT#s1_5">
+	<rdf:type rdf:resource="http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word"/>
+	<conll:WORD>când</conll:WORD>
+	<conll:ID>5</conll:ID>
+	<conll:LEMMA>când</conll:LEMMA>
+	<conll:UPOS>ADV</conll:UPOS>
+	<conll:POS>Rw</conll:POS>
+	<conll:FEAT>PronType=Int,Rel</conll:FEAT>
+	<conll:HEAD rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s1_8"/>
+	<conll:EDGE>advmod</conll:EDGE>
+	<nif:nextWord rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s1_6"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/UniversalDependencies/UD_Romanian-RRT#s1_6">
+	<rdf:type rdf:resource="http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word"/>
+	<conll:WORD>s-</conll:WORD>
+	<conll:ID>6</conll:ID>
+	<conll:LEMMA>sine</conll:LEMMA>
+	<conll:UPOS>PRON</conll:UPOS>
+	<conll:POS>Px3--a--y-----w</conll:POS>
+	<conll:FEAT>Case=Acc|Person=3|PronType=Prs|Reflex=Yes|Strength=Weak|Variant=Short</conll:FEAT>
+	<conll:HEAD rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s1_8"/>
+	<conll:EDGE>expl:pv</conll:EDGE>
+	<conll:MISC>SpaceAfter=No</conll:MISC>
+	<nif:nextWord rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s1_7"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/UniversalDependencies/UD_Romanian-RRT#s1_7">
+	<rdf:type rdf:resource="http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word"/>
+	<conll:WORD>a</conll:WORD>
+	<conll:ID>7</conll:ID>
+	<conll:LEMMA>avea</conll:LEMMA>
+	<conll:UPOS>AUX</conll:UPOS>
+	<conll:POS>Va--3s</conll:POS>
+	<conll:FEAT>Number=Sing|Person=3</conll:FEAT>
+	<conll:HEAD rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s1_8"/>
+	<conll:EDGE>aux</conll:EDGE>
+	<nif:nextWord rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s1_8"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/UniversalDependencies/UD_Romanian-RRT#s1_8">
+	<rdf:type rdf:resource="http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word"/>
+	<conll:WORD>dat</conll:WORD>
+	<conll:ID>8</conll:ID>
+	<conll:LEMMA>da</conll:LEMMA>
+	<conll:UPOS>VERB</conll:UPOS>
+	<conll:POS>Vmp--sm</conll:POS>
+	<conll:FEAT>Gender=Masc|Number=Sing|VerbForm=Part</conll:FEAT>
+	<conll:HEAD rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s1_3"/>
+	<conll:EDGE>advcl</conll:EDGE>
+	<nif:nextWord rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s1_9"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/UniversalDependencies/UD_Romanian-RRT#s1_9">
+	<rdf:type rdf:resource="http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word"/>
+	<conll:WORD>la</conll:WORD>
+	<conll:ID>9</conll:ID>
+	<conll:LEMMA>la</conll:LEMMA>
+	<conll:UPOS>ADP</conll:UPOS>
+	<conll:POS>Spsa</conll:POS>
+	<conll:FEAT>AdpType=Prep|Case=Acc</conll:FEAT>
+	<conll:HEAD rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s1_10"/>
+	<conll:EDGE>case</conll:EDGE>
+	<nif:nextWord rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s1_10"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/UniversalDependencies/UD_Romanian-RRT#s1_10">
+	<rdf:type rdf:resource="http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word"/>
+	<conll:WORD>fund</conll:WORD>
+	<conll:ID>10</conll:ID>
+	<conll:LEMMA>fund</conll:LEMMA>
+	<conll:UPOS>NOUN</conll:UPOS>
+	<conll:POS>Ncms-n</conll:POS>
+	<conll:FEAT>Definite=Ind|Gender=Masc|Number=Sing</conll:FEAT>
+	<conll:HEAD rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s1_8"/>
+	<conll:EDGE>obl</conll:EDGE>
+	<conll:MISC>SpaceAfter=No</conll:MISC>
+	<nif:nextWord rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s1_11"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/UniversalDependencies/UD_Romanian-RRT#s1_11">
+	<rdf:type rdf:resource="http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word"/>
+	<conll:WORD>.</conll:WORD>
+	<conll:ID>11</conll:ID>
+	<conll:LEMMA>.</conll:LEMMA>
+	<conll:UPOS>PUNCT</conll:UPOS>
+	<conll:POS>PERIOD</conll:POS>
+	<conll:HEAD rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s1_1"/>
+	<conll:EDGE>punct</conll:EDGE>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/UniversalDependencies/UD_Romanian-RRT#s1_0">
+	<nif:nextSentence rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s2_0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/UniversalDependencies/UD_Romanian-RRT#s2_0">
+	<rdf:type rdf:resource="http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Sentence"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/UniversalDependencies/UD_Romanian-RRT#s2_1">
+	<rdf:type rdf:resource="http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word"/>
+	<conll:WORD>pe</conll:WORD>
+	<conll:ID>1</conll:ID>
+	<conll:LEMMA>pe</conll:LEMMA>
+	<conll:UPOS>ADP</conll:UPOS>
+	<conll:POS>Spsa</conll:POS>
+	<conll:FEAT>AdpType=Prep|Case=Acc</conll:FEAT>
+	<conll:HEAD rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s2_4"/>
+	<conll:EDGE>advmod</conll:EDGE>
+	<nif:nextWord rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s2_2"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/UniversalDependencies/UD_Romanian-RRT#s2_2">
+	<rdf:type rdf:resource="http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word"/>
+	<conll:WORD>urmă</conll:WORD>
+	<conll:ID>2</conll:ID>
+	<conll:LEMMA>urmă</conll:LEMMA>
+	<conll:UPOS>NOUN</conll:UPOS>
+	<conll:POS>Ncfsrn</conll:POS>
+	<conll:FEAT>Case=Acc,Nom|Definite=Ind|Gender=Fem|Number=Sing</conll:FEAT>
+	<conll:HEAD rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s2_1"/>
+	<conll:EDGE>fixed</conll:EDGE>
+	<nif:nextWord rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s2_3"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/UniversalDependencies/UD_Romanian-RRT#s2_3">
+	<rdf:type rdf:resource="http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word"/>
+	<conll:WORD>ți-</conll:WORD>
+	<conll:ID>3</conll:ID>
+	<conll:LEMMA>tu</conll:LEMMA>
+	<conll:UPOS>PRON</conll:UPOS>
+	<conll:POS>Pp2-sd--y-----w</conll:POS>
+	<conll:FEAT>Case=Dat|Number=Sing|Person=2|PronType=Prs|Strength=Weak|Variant=Short</conll:FEAT>
+	<conll:HEAD rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s2_4"/>
+	<conll:EDGE>iobj</conll:EDGE>
+	<conll:MISC>SpaceAfter=No</conll:MISC>
+	<nif:nextWord rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s2_4"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/UniversalDependencies/UD_Romanian-RRT#s2_4">
+	<rdf:type rdf:resource="http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word"/>
+	<conll:WORD>arăta</conll:WORD>
+	<conll:ID>4</conll:ID>
+	<conll:LEMMA>arăta</conll:LEMMA>
+	<conll:UPOS>VERB</conll:UPOS>
+	<conll:POS>Vmii3s</conll:POS>
+	<conll:FEAT>Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin</conll:FEAT>
+	<conll:HEAD rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s2_0"/>
+	<conll:EDGE>root</conll:EDGE>
+	<nif:nextWord rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s2_5"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/UniversalDependencies/UD_Romanian-RRT#s2_5">
+	<rdf:type rdf:resource="http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word"/>
+	<conll:WORD>o</conll:WORD>
+	<conll:ID>5</conll:ID>
+	<conll:LEMMA>un</conll:LEMMA>
+	<conll:UPOS>DET</conll:UPOS>
+	<conll:POS>Tifsr</conll:POS>
+	<conll:FEAT>Case=Acc,Nom|Gender=Fem|Number=Sing|PronType=Ind</conll:FEAT>
+	<conll:HEAD rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s2_6"/>
+	<conll:EDGE>det</conll:EDGE>
+	<nif:nextWord rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s2_6"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/UniversalDependencies/UD_Romanian-RRT#s2_6">
+	<rdf:type rdf:resource="http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word"/>
+	<conll:WORD>barcă</conll:WORD>
+	<conll:ID>6</conll:ID>
+	<conll:LEMMA>barcă</conll:LEMMA>
+	<conll:UPOS>NOUN</conll:UPOS>
+	<conll:POS>Ncfsrn</conll:POS>
+	<conll:FEAT>Case=Acc,Nom|Definite=Ind|Gender=Fem|Number=Sing</conll:FEAT>
+	<conll:HEAD rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s2_4"/>
+	<conll:EDGE>obj</conll:EDGE>
+	<nif:nextWord rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s2_7"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/UniversalDependencies/UD_Romanian-RRT#s2_7">
+	<rdf:type rdf:resource="http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word"/>
+	<conll:WORD>de</conll:WORD>
+	<conll:ID>7</conll:ID>
+	<conll:LEMMA>de</conll:LEMMA>
+	<conll:UPOS>ADP</conll:UPOS>
+	<conll:POS>Spsa</conll:POS>
+	<conll:FEAT>AdpType=Prep|Case=Acc</conll:FEAT>
+	<conll:HEAD rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s2_8"/>
+	<conll:EDGE>case</conll:EDGE>
+	<nif:nextWord rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s2_8"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/UniversalDependencies/UD_Romanian-RRT#s2_8">
+	<rdf:type rdf:resource="http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word"/>
+	<conll:WORD>salvare</conll:WORD>
+	<conll:ID>8</conll:ID>
+	<conll:LEMMA>salvare</conll:LEMMA>
+	<conll:UPOS>NOUN</conll:UPOS>
+	<conll:POS>Ncfsrn</conll:POS>
+	<conll:FEAT>Case=Acc,Nom|Definite=Ind|Gender=Fem|Number=Sing</conll:FEAT>
+	<conll:HEAD rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s2_6"/>
+	<conll:EDGE>nmod</conll:EDGE>
+	<nif:nextWord rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s2_9"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/UniversalDependencies/UD_Romanian-RRT#s2_9">
+	<rdf:type rdf:resource="http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word"/>
+	<conll:WORD>plină</conll:WORD>
+	<conll:ID>9</conll:ID>
+	<conll:LEMMA>plin</conll:LEMMA>
+	<conll:UPOS>ADJ</conll:UPOS>
+	<conll:POS>Afpfsrn</conll:POS>
+	<conll:FEAT>Case=Acc,Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing</conll:FEAT>
+	<conll:HEAD rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s2_6"/>
+	<conll:EDGE>amod</conll:EDGE>
+	<nif:nextWord rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s2_10"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/UniversalDependencies/UD_Romanian-RRT#s2_10">
+	<rdf:type rdf:resource="http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word"/>
+	<conll:WORD>cu</conll:WORD>
+	<conll:ID>10</conll:ID>
+	<conll:LEMMA>cu</conll:LEMMA>
+	<conll:UPOS>ADP</conll:UPOS>
+	<conll:POS>Spsa</conll:POS>
+	<conll:FEAT>AdpType=Prep|Case=Acc</conll:FEAT>
+	<conll:HEAD rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s2_11"/>
+	<conll:EDGE>case</conll:EDGE>
+	<nif:nextWord rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s2_11"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/UniversalDependencies/UD_Romanian-RRT#s2_11">
+	<rdf:type rdf:resource="http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word"/>
+	<conll:WORD>copii</conll:WORD>
+	<conll:ID>11</conll:ID>
+	<conll:LEMMA>copil</conll:LEMMA>
+	<conll:UPOS>NOUN</conll:UPOS>
+	<conll:POS>Ncmp-n</conll:POS>
+	<conll:FEAT>Definite=Ind|Gender=Masc|Number=Plur</conll:FEAT>
+	<conll:HEAD rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s2_9"/>
+	<conll:EDGE>obl</conll:EDGE>
+	<nif:nextWord rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s2_12"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/UniversalDependencies/UD_Romanian-RRT#s2_12">
+	<rdf:type rdf:resource="http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word"/>
+	<conll:WORD>și</conll:WORD>
+	<conll:ID>12</conll:ID>
+	<conll:LEMMA>și</conll:LEMMA>
+	<conll:UPOS>CCONJ</conll:UPOS>
+	<conll:POS>Crssp</conll:POS>
+	<conll:FEAT>Polarity=Pos</conll:FEAT>
+	<conll:HEAD rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s2_14"/>
+	<conll:EDGE>cc</conll:EDGE>
+	<nif:nextWord rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s2_13"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/UniversalDependencies/UD_Romanian-RRT#s2_13">
+	<rdf:type rdf:resource="http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word"/>
+	<conll:WORD>un</conll:WORD>
+	<conll:ID>13</conll:ID>
+	<conll:LEMMA>un</conll:LEMMA>
+	<conll:UPOS>DET</conll:UPOS>
+	<conll:POS>Timsr</conll:POS>
+	<conll:FEAT>Case=Acc,Nom|Gender=Masc|Number=Sing|PronType=Ind</conll:FEAT>
+	<conll:HEAD rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s2_14"/>
+	<conll:EDGE>det</conll:EDGE>
+	<nif:nextWord rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s2_14"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/UniversalDependencies/UD_Romanian-RRT#s2_14">
+	<rdf:type rdf:resource="http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word"/>
+	<conll:WORD>elicopter</conll:WORD>
+	<conll:ID>14</conll:ID>
+	<conll:LEMMA>elicopter</conll:LEMMA>
+	<conll:UPOS>NOUN</conll:UPOS>
+	<conll:POS>Ncms-n</conll:POS>
+	<conll:FEAT>Definite=Ind|Gender=Masc|Number=Sing</conll:FEAT>
+	<conll:HEAD rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s2_6"/>
+	<conll:EDGE>conj</conll:EDGE>
+	<nif:nextWord rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s2_15"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/UniversalDependencies/UD_Romanian-RRT#s2_15">
+	<rdf:type rdf:resource="http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word"/>
+	<conll:WORD>care</conll:WORD>
+	<conll:ID>15</conll:ID>
+	<conll:LEMMA>care</conll:LEMMA>
+	<conll:UPOS>PRON</conll:UPOS>
+	<conll:POS>Pw3--r</conll:POS>
+	<conll:FEAT>Case=Acc,Nom|Person=3|PronType=Int,Rel</conll:FEAT>
+	<conll:HEAD rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s2_17"/>
+	<conll:EDGE>nsubj</conll:EDGE>
+	<nif:nextWord rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s2_16"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/UniversalDependencies/UD_Romanian-RRT#s2_16">
+	<rdf:type rdf:resource="http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word"/>
+	<conll:WORD>se</conll:WORD>
+	<conll:ID>16</conll:ID>
+	<conll:LEMMA>sine</conll:LEMMA>
+	<conll:UPOS>PRON</conll:UPOS>
+	<conll:POS>Px3--a--------w</conll:POS>
+	<conll:FEAT>Case=Acc|Person=3|PronType=Prs|Reflex=Yes|Strength=Weak</conll:FEAT>
+	<conll:HEAD rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s2_17"/>
+	<conll:EDGE>expl:pv</conll:EDGE>
+	<nif:nextWord rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s2_17"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/UniversalDependencies/UD_Romanian-RRT#s2_17">
+	<rdf:type rdf:resource="http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word"/>
+	<conll:WORD>oprise</conll:WORD>
+	<conll:ID>17</conll:ID>
+	<conll:LEMMA>opri</conll:LEMMA>
+	<conll:UPOS>VERB</conll:UPOS>
+	<conll:POS>Vmil3s</conll:POS>
+	<conll:FEAT>Mood=Ind|Number=Sing|Person=3|Tense=Pqp|VerbForm=Fin</conll:FEAT>
+	<conll:HEAD rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s2_14"/>
+	<conll:EDGE>acl</conll:EDGE>
+	<nif:nextWord rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s2_18"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/UniversalDependencies/UD_Romanian-RRT#s2_18">
+	<rdf:type rdf:resource="http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word"/>
+	<conll:WORD>deasupra</conll:WORD>
+	<conll:ID>18</conll:ID>
+	<conll:LEMMA>deasupra</conll:LEMMA>
+	<conll:UPOS>ADP</conll:UPOS>
+	<conll:POS>Spsg</conll:POS>
+	<conll:FEAT>AdpType=Prep|Case=Gen</conll:FEAT>
+	<conll:HEAD rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s2_19"/>
+	<conll:EDGE>case</conll:EDGE>
+	<nif:nextWord rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s2_19"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/UniversalDependencies/UD_Romanian-RRT#s2_19">
+	<rdf:type rdf:resource="http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word"/>
+	<conll:WORD>ei</conll:WORD>
+	<conll:ID>19</conll:ID>
+	<conll:LEMMA>el</conll:LEMMA>
+	<conll:UPOS>PRON</conll:UPOS>
+	<conll:POS>Pp3mpr--------s</conll:POS>
+	<conll:FEAT>Case=Acc,Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs|Strength=Strong</conll:FEAT>
+	<conll:HEAD rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s2_17"/>
+	<conll:EDGE>obl</conll:EDGE>
+	<conll:MISC>SpaceAfter=No</conll:MISC>
+	<nif:nextWord rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s2_20"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/UniversalDependencies/UD_Romanian-RRT#s2_20">
+	<rdf:type rdf:resource="http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word"/>
+	<conll:WORD>.</conll:WORD>
+	<conll:ID>20</conll:ID>
+	<conll:LEMMA>.</conll:LEMMA>
+	<conll:UPOS>PUNCT</conll:UPOS>
+	<conll:POS>PERIOD</conll:POS>
+	<conll:HEAD rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s2_4"/>
+	<conll:EDGE>punct</conll:EDGE>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/UniversalDependencies/UD_Romanian-RRT#s2_0">
+	<nif:nextSentence rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s3_0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/UniversalDependencies/UD_Romanian-RRT#s3_0">
+	<rdf:type rdf:resource="http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Sentence"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/UniversalDependencies/UD_Romanian-RRT#s3_1">
+	<rdf:type rdf:resource="http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word"/>
+	<conll:WORD>era</conll:WORD>
+	<conll:ID>1</conll:ID>
+	<conll:LEMMA>fi</conll:LEMMA>
+	<conll:UPOS>AUX</conll:UPOS>
+	<conll:POS>Vmii3s</conll:POS>
+	<conll:FEAT>Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin</conll:FEAT>
+	<conll:HEAD rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s3_3"/>
+	<conll:EDGE>cop</conll:EDGE>
+	<nif:nextWord rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s3_2"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/UniversalDependencies/UD_Romanian-RRT#s3_2">
+	<rdf:type rdf:resource="http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word"/>
+	<conll:WORD>o</conll:WORD>
+	<conll:ID>2</conll:ID>
+	<conll:LEMMA>un</conll:LEMMA>
+	<conll:UPOS>DET</conll:UPOS>
+	<conll:POS>Tifsr</conll:POS>
+	<conll:FEAT>Case=Acc,Nom|Gender=Fem|Number=Sing|PronType=Ind</conll:FEAT>
+	<conll:HEAD rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s3_3"/>
+	<conll:EDGE>det</conll:EDGE>
+	<nif:nextWord rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s3_3"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/UniversalDependencies/UD_Romanian-RRT#s3_3">
+	<rdf:type rdf:resource="http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word"/>
+	<conll:WORD>femeie</conll:WORD>
+	<conll:ID>3</conll:ID>
+	<conll:LEMMA>femeie</conll:LEMMA>
+	<conll:UPOS>NOUN</conll:UPOS>
+	<conll:POS>Ncfsrn</conll:POS>
+	<conll:FEAT>Case=Acc,Nom|Definite=Ind|Gender=Fem|Number=Sing</conll:FEAT>
+	<conll:HEAD rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s3_0"/>
+	<conll:EDGE>root</conll:EDGE>
+	<nif:nextWord rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s3_4"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/UniversalDependencies/UD_Romanian-RRT#s3_4">
+	<rdf:type rdf:resource="http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word"/>
+	<conll:WORD>între</conll:WORD>
+	<conll:ID>4</conll:ID>
+	<conll:LEMMA>între</conll:LEMMA>
+	<conll:UPOS>ADP</conll:UPOS>
+	<conll:POS>Spsa</conll:POS>
+	<conll:FEAT>AdpType=Prep|Case=Acc</conll:FEAT>
+	<conll:HEAD rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s3_6"/>
+	<conll:EDGE>case</conll:EDGE>
+	<nif:nextWord rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s3_5"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/UniversalDependencies/UD_Romanian-RRT#s3_5">
+	<rdf:type rdf:resource="http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word"/>
+	<conll:WORD>două</conll:WORD>
+	<conll:ID>5</conll:ID>
+	<conll:LEMMA>doi</conll:LEMMA>
+	<conll:UPOS>NUM</conll:UPOS>
+	<conll:POS>Mcfp-l</conll:POS>
+	<conll:FEAT>Gender=Fem|Number=Plur|NumForm=Word|NumType=Card</conll:FEAT>
+	<conll:HEAD rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s3_6"/>
+	<conll:EDGE>nummod</conll:EDGE>
+	<nif:nextWord rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s3_6"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/UniversalDependencies/UD_Romanian-RRT#s3_6">
+	<rdf:type rdf:resource="http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word"/>
+	<conll:WORD>vârste</conll:WORD>
+	<conll:ID>6</conll:ID>
+	<conll:LEMMA>vârstă</conll:LEMMA>
+	<conll:UPOS>NOUN</conll:UPOS>
+	<conll:POS>Ncfp-n</conll:POS>
+	<conll:FEAT>Definite=Ind|Gender=Fem|Number=Plur</conll:FEAT>
+	<conll:HEAD rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s3_3"/>
+	<conll:EDGE>nmod</conll:EDGE>
+	<conll:MISC>SpaceAfter=No|ToDo=nmod</conll:MISC>
+	<nif:nextWord rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s3_7"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/UniversalDependencies/UD_Romanian-RRT#s3_7">
+	<rdf:type rdf:resource="http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word"/>
+	<conll:WORD>,</conll:WORD>
+	<conll:ID>7</conll:ID>
+	<conll:LEMMA>,</conll:LEMMA>
+	<conll:UPOS>PUNCT</conll:UPOS>
+	<conll:POS>COMMA</conll:POS>
+	<conll:HEAD rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s3_9"/>
+	<conll:EDGE>punct</conll:EDGE>
+	<nif:nextWord rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s3_8"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/UniversalDependencies/UD_Romanian-RRT#s3_8">
+	<rdf:type rdf:resource="http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word"/>
+	<conll:WORD>poate</conll:WORD>
+	<conll:ID>8</conll:ID>
+	<conll:LEMMA>poate</conll:LEMMA>
+	<conll:UPOS>ADV</conll:UPOS>
+	<conll:POS>Rgp</conll:POS>
+	<conll:FEAT>Degree=Pos</conll:FEAT>
+	<conll:HEAD rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s3_9"/>
+	<conll:EDGE>advmod</conll:EDGE>
+	<nif:nextWord rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s3_9"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/UniversalDependencies/UD_Romanian-RRT#s3_9">
+	<rdf:type rdf:resource="http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word"/>
+	<conll:WORD>evreică</conll:WORD>
+	<conll:ID>9</conll:ID>
+	<conll:LEMMA>evreică</conll:LEMMA>
+	<conll:UPOS>NOUN</conll:UPOS>
+	<conll:POS>Ncfsrn</conll:POS>
+	<conll:FEAT>Case=Acc,Nom|Definite=Ind|Gender=Fem|Number=Sing</conll:FEAT>
+	<conll:HEAD rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s3_3"/>
+	<conll:EDGE>nmod</conll:EDGE>
+	<conll:MISC>ToDo=nmod</conll:MISC>
+	<nif:nextWord rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s3_10"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/UniversalDependencies/UD_Romanian-RRT#s3_10">
+	<rdf:type rdf:resource="http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word"/>
+	<conll:WORD>și</conll:WORD>
+	<conll:ID>10</conll:ID>
+	<conll:LEMMA>și</conll:LEMMA>
+	<conll:UPOS>CCONJ</conll:UPOS>
+	<conll:POS>Crssp</conll:POS>
+	<conll:FEAT>Polarity=Pos</conll:FEAT>
+	<conll:HEAD rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s3_11"/>
+	<conll:EDGE>cc</conll:EDGE>
+	<nif:nextWord rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s3_11"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/UniversalDependencies/UD_Romanian-RRT#s3_11">
+	<rdf:type rdf:resource="http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word"/>
+	<conll:WORD>stătea</conll:WORD>
+	<conll:ID>11</conll:ID>
+	<conll:LEMMA>sta</conll:LEMMA>
+	<conll:UPOS>VERB</conll:UPOS>
+	<conll:POS>Vmii3s</conll:POS>
+	<conll:FEAT>Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin</conll:FEAT>
+	<conll:HEAD rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s3_3"/>
+	<conll:EDGE>conj</conll:EDGE>
+	<nif:nextWord rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s3_12"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/UniversalDependencies/UD_Romanian-RRT#s3_12">
+	<rdf:type rdf:resource="http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word"/>
+	<conll:WORD>în</conll:WORD>
+	<conll:ID>12</conll:ID>
+	<conll:LEMMA>în</conll:LEMMA>
+	<conll:UPOS>ADP</conll:UPOS>
+	<conll:POS>Spsa</conll:POS>
+	<conll:FEAT>AdpType=Prep|Case=Acc</conll:FEAT>
+	<conll:HEAD rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s3_11"/>
+	<conll:EDGE>advmod</conll:EDGE>
+	<nif:nextWord rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s3_13"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/UniversalDependencies/UD_Romanian-RRT#s3_13">
+	<rdf:type rdf:resource="http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word"/>
+	<conll:WORD>față</conll:WORD>
+	<conll:ID>13</conll:ID>
+	<conll:LEMMA>față</conll:LEMMA>
+	<conll:UPOS>NOUN</conll:UPOS>
+	<conll:POS>Ncfsrn</conll:POS>
+	<conll:FEAT>Case=Acc,Nom|Definite=Ind|Gender=Fem|Number=Sing</conll:FEAT>
+	<conll:HEAD rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s3_12"/>
+	<conll:EDGE>fixed</conll:EDGE>
+	<nif:nextWord rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s3_14"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/UniversalDependencies/UD_Romanian-RRT#s3_14">
+	<rdf:type rdf:resource="http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word"/>
+	<conll:WORD>cu</conll:WORD>
+	<conll:ID>14</conll:ID>
+	<conll:LEMMA>cu</conll:LEMMA>
+	<conll:UPOS>ADP</conll:UPOS>
+	<conll:POS>Spsa</conll:POS>
+	<conll:FEAT>AdpType=Prep|Case=Acc</conll:FEAT>
+	<conll:HEAD rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s3_16"/>
+	<conll:EDGE>case</conll:EDGE>
+	<nif:nextWord rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s3_15"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/UniversalDependencies/UD_Romanian-RRT#s3_15">
+	<rdf:type rdf:resource="http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word"/>
+	<conll:WORD>un</conll:WORD>
+	<conll:ID>15</conll:ID>
+	<conll:LEMMA>un</conll:LEMMA>
+	<conll:UPOS>DET</conll:UPOS>
+	<conll:POS>Timsr</conll:POS>
+	<conll:FEAT>Case=Acc,Nom|Gender=Masc|Number=Sing|PronType=Ind</conll:FEAT>
+	<conll:HEAD rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s3_16"/>
+	<conll:EDGE>det</conll:EDGE>
+	<nif:nextWord rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s3_16"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/UniversalDependencies/UD_Romanian-RRT#s3_16">
+	<rdf:type rdf:resource="http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word"/>
+	<conll:WORD>băiețel</conll:WORD>
+	<conll:ID>16</conll:ID>
+	<conll:LEMMA>băiețel</conll:LEMMA>
+	<conll:UPOS>NOUN</conll:UPOS>
+	<conll:POS>Ncms-n</conll:POS>
+	<conll:FEAT>Definite=Ind|Gender=Masc|Number=Sing</conll:FEAT>
+	<conll:HEAD rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s3_11"/>
+	<conll:EDGE>obl</conll:EDGE>
+	<nif:nextWord rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s3_17"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/UniversalDependencies/UD_Romanian-RRT#s3_17">
+	<rdf:type rdf:resource="http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word"/>
+	<conll:WORD>de</conll:WORD>
+	<conll:ID>17</conll:ID>
+	<conll:LEMMA>de</conll:LEMMA>
+	<conll:UPOS>ADP</conll:UPOS>
+	<conll:POS>Spsa</conll:POS>
+	<conll:FEAT>AdpType=Prep|Case=Acc</conll:FEAT>
+	<conll:HEAD rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s3_20"/>
+	<conll:EDGE>case</conll:EDGE>
+	<nif:nextWord rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s3_18"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/UniversalDependencies/UD_Romanian-RRT#s3_18">
+	<rdf:type rdf:resource="http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word"/>
+	<conll:WORD>vreo</conll:WORD>
+	<conll:ID>18</conll:ID>
+	<conll:LEMMA>vreun</conll:LEMMA>
+	<conll:UPOS>DET</conll:UPOS>
+	<conll:POS>Di3fsr---e</conll:POS>
+	<conll:FEAT>Case=Acc,Nom|Gender=Fem|Number=Sing|Person=3|Position=Prenom|PronType=Ind</conll:FEAT>
+	<conll:HEAD rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s3_19"/>
+	<conll:EDGE>det</conll:EDGE>
+	<nif:nextWord rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s3_19"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/UniversalDependencies/UD_Romanian-RRT#s3_19">
+	<rdf:type rdf:resource="http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word"/>
+	<conll:WORD>trei</conll:WORD>
+	<conll:ID>19</conll:ID>
+	<conll:LEMMA>trei</conll:LEMMA>
+	<conll:UPOS>NUM</conll:UPOS>
+	<conll:POS>Mc-p-l</conll:POS>
+	<conll:FEAT>Number=Plur|NumForm=Word|NumType=Card</conll:FEAT>
+	<conll:HEAD rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s3_20"/>
+	<conll:EDGE>nummod</conll:EDGE>
+	<nif:nextWord rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s3_20"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/UniversalDependencies/UD_Romanian-RRT#s3_20">
+	<rdf:type rdf:resource="http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word"/>
+	<conll:WORD>ani</conll:WORD>
+	<conll:ID>20</conll:ID>
+	<conll:LEMMA>an</conll:LEMMA>
+	<conll:UPOS>NOUN</conll:UPOS>
+	<conll:POS>Ncmp-n</conll:POS>
+	<conll:FEAT>Definite=Ind|Gender=Masc|Number=Plur</conll:FEAT>
+	<conll:HEAD rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s3_16"/>
+	<conll:EDGE>nmod</conll:EDGE>
+	<nif:nextWord rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s3_21"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/UniversalDependencies/UD_Romanian-RRT#s3_21">
+	<rdf:type rdf:resource="http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word"/>
+	<conll:WORD>în</conll:WORD>
+	<conll:ID>21</conll:ID>
+	<conll:LEMMA>în</conll:LEMMA>
+	<conll:UPOS>ADP</conll:UPOS>
+	<conll:POS>Spsa</conll:POS>
+	<conll:FEAT>AdpType=Prep|Case=Acc</conll:FEAT>
+	<conll:HEAD rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s3_22"/>
+	<conll:EDGE>case</conll:EDGE>
+	<nif:nextWord rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s3_22"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/UniversalDependencies/UD_Romanian-RRT#s3_22">
+	<rdf:type rdf:resource="http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word"/>
+	<conll:WORD>brațe</conll:WORD>
+	<conll:ID>22</conll:ID>
+	<conll:LEMMA>braț</conll:LEMMA>
+	<conll:UPOS>NOUN</conll:UPOS>
+	<conll:POS>Ncfp-n</conll:POS>
+	<conll:FEAT>Definite=Ind|Gender=Fem|Number=Plur</conll:FEAT>
+	<conll:HEAD rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s3_11"/>
+	<conll:EDGE>obl</conll:EDGE>
+	<conll:MISC>SpaceAfter=No</conll:MISC>
+	<nif:nextWord rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s3_23"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/UniversalDependencies/UD_Romanian-RRT#s3_23">
+	<rdf:type rdf:resource="http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Word"/>
+	<conll:WORD>.</conll:WORD>
+	<conll:ID>23</conll:ID>
+	<conll:LEMMA>.</conll:LEMMA>
+	<conll:UPOS>PUNCT</conll:UPOS>
+	<conll:POS>PERIOD</conll:POS>
+	<conll:HEAD rdf:resource="https://github.com/UniversalDependencies/UD_Romanian-RRT#s3_3"/>
+	<conll:EDGE>punct</conll:EDGE>
+</rdf:Description>
+

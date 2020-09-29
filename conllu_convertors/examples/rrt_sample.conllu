@@ -1,0 +1,63 @@
+# newdoc id = 1984Orwell-b1-ttl
+# sent_id = test-1
+# text = publicul care urla râzând când s-a dat la fund.
+1	publicul	public	NOUN	Ncmsry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	_
+2	care	care	PRON	Pw3--r	Case=Acc,Nom|Person=3|PronType=Int,Rel	3	nsubj	_	_
+3	urla	urla	VERB	Vmii3s	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	acl	_	_
+4	râzând	râde	VERB	Vmg	VerbForm=Ger	3	xcomp	_	_
+5	când	când	ADV	Rw	PronType=Int,Rel	8	advmod	_	_
+6	s-	sine	PRON	Px3--a--y-----w	Case=Acc|Person=3|PronType=Prs|Reflex=Yes|Strength=Weak|Variant=Short	8	expl:pv	_	SpaceAfter=No
+7	a	avea	AUX	Va--3s	Number=Sing|Person=3	8	aux	_	_
+8	dat	da	VERB	Vmp--sm	Gender=Masc|Number=Sing|VerbForm=Part	3	advcl	_	_
+9	la	la	ADP	Spsa	AdpType=Prep|Case=Acc	10	case	_	_
+10	fund	fund	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+11	.	.	PUNCT	PERIOD	_	1	punct	_	_
+
+# sent_id = test-2
+# text = pe urmă ți-arăta o barcă de salvare plină cu copii și un elicopter care se oprise deasupra ei.
+1	pe	pe	ADP	Spsa	AdpType=Prep|Case=Acc	4	advmod	_	_
+2	urmă	urmă	NOUN	Ncfsrn	Case=Acc,Nom|Definite=Ind|Gender=Fem|Number=Sing	1	fixed	_	_
+3	ți-	tu	PRON	Pp2-sd--y-----w	Case=Dat|Number=Sing|Person=2|PronType=Prs|Strength=Weak|Variant=Short	4	iobj	_	SpaceAfter=No
+4	arăta	arăta	VERB	Vmii3s	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	o	un	DET	Tifsr	Case=Acc,Nom|Gender=Fem|Number=Sing|PronType=Ind	6	det	_	_
+6	barcă	barcă	NOUN	Ncfsrn	Case=Acc,Nom|Definite=Ind|Gender=Fem|Number=Sing	4	obj	_	_
+7	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	8	case	_	_
+8	salvare	salvare	NOUN	Ncfsrn	Case=Acc,Nom|Definite=Ind|Gender=Fem|Number=Sing	6	nmod	_	_
+9	plină	plin	ADJ	Afpfsrn	Case=Acc,Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+10	cu	cu	ADP	Spsa	AdpType=Prep|Case=Acc	11	case	_	_
+11	copii	copil	NOUN	Ncmp-n	Definite=Ind|Gender=Masc|Number=Plur	9	obl	_	_
+12	și	și	CCONJ	Crssp	Polarity=Pos	14	cc	_	_
+13	un	un	DET	Timsr	Case=Acc,Nom|Gender=Masc|Number=Sing|PronType=Ind	14	det	_	_
+14	elicopter	elicopter	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	6	conj	_	_
+15	care	care	PRON	Pw3--r	Case=Acc,Nom|Person=3|PronType=Int,Rel	17	nsubj	_	_
+16	se	sine	PRON	Px3--a--------w	Case=Acc|Person=3|PronType=Prs|Reflex=Yes|Strength=Weak	17	expl:pv	_	_
+17	oprise	opri	VERB	Vmil3s	Mood=Ind|Number=Sing|Person=3|Tense=Pqp|VerbForm=Fin	14	acl	_	_
+18	deasupra	deasupra	ADP	Spsg	AdpType=Prep|Case=Gen	19	case	_	_
+19	ei	el	PRON	Pp3mpr--------s	Case=Acc,Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs|Strength=Strong	17	obl	_	SpaceAfter=No
+20	.	.	PUNCT	PERIOD	_	4	punct	_	_
+
+# sent_id = test-3
+# text = era o femeie între două vârste, poate evreică și stătea în față cu un băiețel de vreo trei ani în brațe.
+1	era	fi	AUX	Vmii3s	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	o	un	DET	Tifsr	Case=Acc,Nom|Gender=Fem|Number=Sing|PronType=Ind	3	det	_	_
+3	femeie	femeie	NOUN	Ncfsrn	Case=Acc,Nom|Definite=Ind|Gender=Fem|Number=Sing	0	root	_	_
+4	între	între	ADP	Spsa	AdpType=Prep|Case=Acc	6	case	_	_
+5	două	doi	NUM	Mcfp-l	Gender=Fem|Number=Plur|NumForm=Word|NumType=Card	6	nummod	_	_
+6	vârste	vârstă	NOUN	Ncfp-n	Definite=Ind|Gender=Fem|Number=Plur	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	COMMA	_	9	punct	_	_
+8	poate	poate	ADV	Rgp	Degree=Pos	9	advmod	_	_
+9	evreică	evreică	NOUN	Ncfsrn	Case=Acc,Nom|Definite=Ind|Gender=Fem|Number=Sing	3	nmod	_	_
+10	și	și	CCONJ	Crssp	Polarity=Pos	11	cc	_	_
+11	stătea	sta	VERB	Vmii3s	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
+12	în	în	ADP	Spsa	AdpType=Prep|Case=Acc	11	advmod	_	_
+13	față	față	NOUN	Ncfsrn	Case=Acc,Nom|Definite=Ind|Gender=Fem|Number=Sing	12	fixed	_	_
+14	cu	cu	ADP	Spsa	AdpType=Prep|Case=Acc	16	case	_	_
+15	un	un	DET	Timsr	Case=Acc,Nom|Gender=Masc|Number=Sing|PronType=Ind	16	det	_	_
+16	băiețel	băiețel	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	11	obl	_	_
+17	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	20	case	_	_
+18	vreo	vreun	DET	Di3fsr---e	Case=Acc,Nom|Gender=Fem|Number=Sing|Person=3|Position=Prenom|PronType=Ind	19	det	_	_
+19	trei	trei	NUM	Mc-p-l	Number=Plur|NumForm=Word|NumType=Card	20	nummod	_	_
+20	ani	an	NOUN	Ncmp-n	Definite=Ind|Gender=Masc|Number=Plur	16	nmod	_	_
+21	în	în	ADP	Spsa	AdpType=Prep|Case=Acc	22	case	_	_
+22	brațe	braț	NOUN	Ncfp-n	Definite=Ind|Gender=Fem|Number=Plur	11	obl	_	SpaceAfter=No
+23	.	.	PUNCT	PERIOD	_	3	punct	_	_
