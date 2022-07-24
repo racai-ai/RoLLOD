@@ -1,0 +1,908 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC RELATE:NE
+# newdoc
+# newpar
+# sent_id = 1
+# text = HOTĂRÂRE nr. 21 din 16 ianuarie 2020 pentru modificarea și completarea Hotărârii Guvernului nr. 144 / 2010 privind organizarea și funcționarea Ministerului Sănătății Publicat în MONITORUL OFICIAL nr. 33 din 17 ianuarie 2020
+1	HOTĂRÂRE	Hotărâra	PROPN	Np	_	0	root	_	SpacesBefore=\r\n	B-LAW
+2	nr.	nr.	NOUN	Yn	Abbr=Yes	1	nmod	_	_	I-LAW
+3	21	21	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	2	nummod	_	_	I-LAW
+4	din	din	ADP	Spsa	AdpType=Prep|Case=Acc	6	case	_	_	I-LAW
+5	16	16	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	6	nummod	_	_	B-TIME
+6	ianuarie	ianuarie	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	1	nmod	_	_	I-TIME
+7	2020	2020	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	6	nummod	_	SpacesAfter=\r\n	I-TIME
+8	pentru	pentru	ADP	Spsa	AdpType=Prep|Case=Acc	9	case	_	_	O
+9	modificarea	modificare	NOUN	Ncfsry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	_	O
+10	și	și	CCONJ	Crssp	Polarity=Pos	11	cc	_	_	O
+11	completarea	completare	NOUN	Ncfsry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing	9	conj	_	_	O
+12	Hotărârii	hotărâre	NOUN	Ncfsoy	Case=Dat,Gen|Definite=Def|Gender=Fem|Number=Sing	11	nmod	_	_	B-LAW
+13	Guvernului	guvern	NOUN	Ncmsoy	Case=Dat,Gen|Definite=Def|Gender=Masc|Number=Sing	12	nmod	_	_	I-LAW
+14	nr.	nr.	NOUN	Yn	Abbr=Yes	12	nmod	_	_	I-LAW
+15	144	144	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	14	nummod	_	_	I-LAW
+16	/	/	SYM	SLASH	AdpType=Prep	14	punct	_	_	I-LAW
+17	2010	2010	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	14	nummod	_	_	B-TIME
+18	privind	privind	ADP	Spsa	AdpType=Prep|Case=Acc	19	case	_	_	O
+19	organizarea	organizare	NOUN	Ncfsry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing	9	nmod	_	_	O
+20	și	și	CCONJ	Crssp	Polarity=Pos	21	cc	_	_	O
+21	funcționarea	funcționare	NOUN	Ncfsry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing	19	conj	_	_	O
+22	Ministerului	minister	NOUN	Ncmsoy	Case=Dat,Gen|Definite=Def|Gender=Masc|Number=Sing	21	nmod	_	_	B-ORG
+23	Sănătății	sănătate	NOUN	Ncfsoy	Case=Dat,Gen|Definite=Def|Gender=Fem|Number=Sing	22	nmod	_	SpacesAfter=\r\n	I-ORG
+24	Publicat	publica	VERB	Vmp--sm	Gender=Masc|Number=Sing|VerbForm=Part	19	acl	_	_	O
+25	în	în	ADP	Spsa	AdpType=Prep|Case=Acc	26	case	_	SpacesAfter= \r\n\t\t\t\r\n	O
+26	MONITORUL	monitor	NOUN	Ncmsry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing	24	obl	_	_	B-ORG
+27	OFICIAL	oficial	PROPN	Np	_	26	nmod	_	_	I-ORG
+28	nr.	nr.	NOUN	Yn	Abbr=Yes	26	nmod	_	_	O
+29	33	33	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	28	nummod	_	_	O
+30	din	din	ADP	Spsa	AdpType=Prep|Case=Acc	32	case	_	_	O
+31	17	17	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	32	nummod	_	_	B-TIME
+32	ianuarie	ianuarie	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	28	nmod	_	_	I-TIME
+33	2020	2020	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	1	nummod	_	SpacesAfter=\r\n\r\n	I-TIME
+
+# newpar
+# sent_id = 2
+# text = În temeiul art. 108 din Constituția României, republicată, Guvernul României adoptă prezenta hotărâre.
+1	În	în	ADP	Spsa	AdpType=Prep|Case=Acc	2	case	_	_	O
+2	temeiul	temei	NOUN	Ncmsry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing	13	obl	_	_	O
+3	art.	art.	NOUN	Yn	Abbr=Yes	2	nmod	_	_	O
+4	108	108	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	3	nummod	_	_	O
+5	din	din	ADP	Spsa	AdpType=Prep|Case=Acc	6	case	_	_	O
+6	Constituția	constituție	NOUN	Ncfsry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing	3	nmod	_	_	B-LAW
+7	României	România	PROPN	Npfsoy	Case=Dat,Gen|Definite=Def|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No	I-LAW
+8	,	,	PUNCT	COMMA	_	9	punct	_	_	O
+9	republicată	republica	VERB	Vmp--sf	Gender=Fem|Number=Sing|VerbForm=Part	3	acl	_	SpaceAfter=No	O
+10	,	,	PUNCT	COMMA	_	2	punct	_	SpacesAfter=\r\n	O
+11	Guvernul	guvern	NOUN	Ncmsry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing	13	nsubj	_	_	B-ORG
+12	României	România	PROPN	Npfsoy	Case=Dat,Gen|Definite=Def|Gender=Fem|Number=Sing	11	nmod	_	_	I-ORG
+13	adoptă	adopta	VERB	Vmis3s	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_	O
+14	prezenta	prezent	ADJ	Afpfsry	Case=Acc,Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_	O
+15	hotărâre	hotărâre	NOUN	Ncfsrn	Case=Acc,Nom|Definite=Ind|Gender=Fem|Number=Sing	13	obj	_	SpaceAfter=No	O
+16	.	.	PUNCT	PERIOD	_	13	punct	_	SpacesAfter=\r\n	O
+
+# sent_id = 3
+# text = Articolul I
+1	Articolul	articol	NOUN	Ncmsry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	_	O
+2	I	unu	NUM	Mo-s-r	Number=Sing|NumForm=Roman|NumType=Ord	1	nummod	_	SpacesAfter=\r\n\r\n	O
+
+# newpar
+# sent_id = 4
+# text = Hotărârea Guvernului nr. 144 / 2010 privind organizarea și funcționarea Ministerului Sănătății, publicată în Monitorul Oficial al României, Partea I, nr. 139 din 2 martie 2010, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:1.
+1	Hotărârea	hotărâre	NOUN	Ncfsry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing	38	nsubj:pass	_	_	B-LAW
+2	Guvernului	guvern	NOUN	Ncmsoy	Case=Dat,Gen|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	_	B-ORG
+3	nr.	nr.	NOUN	Yn	Abbr=Yes	1	nmod	_	_	B-LAW
+4	144	144	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	3	nummod	_	_	I-LAW
+5	/	/	SYM	SLASH	AdpType=Prep	3	punct	_	_	I-LAW
+6	2010	2010	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	3	nummod	_	_	B-TIME
+7	privind	privind	ADP	Spsa	AdpType=Prep|Case=Acc	8	case	_	_	O
+8	organizarea	organizare	NOUN	Ncfsry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	_	O
+9	și	și	CCONJ	Crssp	Polarity=Pos	10	cc	_	_	O
+10	funcționarea	funcționare	NOUN	Ncfsry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing	8	conj	_	_	O
+11	Ministerului	minister	NOUN	Ncmsoy	Case=Dat,Gen|Definite=Def|Gender=Masc|Number=Sing	10	nmod	_	_	B-ORG
+12	Sănătății	sănătate	NOUN	Ncfsoy	Case=Dat,Gen|Definite=Def|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No	I-ORG
+13	,	,	PUNCT	COMMA	_	14	punct	_	_	O
+14	publicată	publica	VERB	Vmp--sf	Gender=Fem|Number=Sing|VerbForm=Part	8	acl	_	_	O
+15	în	în	ADP	Spsa	AdpType=Prep|Case=Acc	16	case	_	_	O
+16	Monitorul	monitor	NOUN	Ncmsry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing	14	obl	_	_	B-ORG
+17	Oficial	oficial	ADJ	Afpms-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_	I-ORG
+18	al	al	DET	Tsms	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	19	det	_	_	I-ORG
+19	României	România	PROPN	Npfsoy	Case=Dat,Gen|Definite=Def|Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No	I-ORG
+20	,	,	PUNCT	COMMA	_	21	punct	_	_	O
+21	Partea	parte	NOUN	Ncfsry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing	16	nmod	_	_	O
+22	I	unu	NUM	Mo-s-r	Number=Sing|NumForm=Roman|NumType=Ord	21	nummod	_	SpaceAfter=No	O
+23	,	,	PUNCT	COMMA	_	21	punct	_	_	O
+24	nr.	nr.	NOUN	Yn	Abbr=Yes	21	nmod	_	_	O
+25	139	139	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	24	nummod	_	_	O
+26	din	din	ADP	Spsa	AdpType=Prep|Case=Acc	28	case	_	_	O
+27	2	2	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	28	nummod	_	_	B-TIME
+28	martie	martie	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	21	nmod	_	_	I-TIME
+29	2010	2010	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	28	nummod	_	SpaceAfter=No	I-TIME
+30	,	,	PUNCT	COMMA	_	32	punct	_	_	O
+31	cu	cu	ADP	Spsa	AdpType=Prep|Case=Acc	32	case	_	_	O
+32	modificările	modificare	NOUN	Ncfpry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Plur	14	obl	_	_	O
+33	și	și	CCONJ	Crssp	Polarity=Pos	34	cc	_	_	O
+34	completările	completare	NOUN	Ncfpry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Plur	32	conj	_	_	O
+35	ulterioare	ulterior	ADJ	Afpfp-n	Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	34	amod	_	SpaceAfter=No	O
+36	,	,	PUNCT	COMMA	_	32	punct	_	_	O
+37	se	sine	PRON	Px3--a--------w	Case=Acc|Person=3|PronType=Prs|Reflex=Yes|Strength=Weak	38	expl:pass	_	_	O
+38	modifică	modifica	VERB	Vmis3s	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_	O
+39	și	și	CCONJ	Crssp	Polarity=Pos	41	cc	_	_	O
+40	se	sine	PRON	Px3--a--------w	Case=Acc|Person=3|PronType=Prs|Reflex=Yes|Strength=Weak	41	expl:pass	_	_	O
+41	completează	completa	VERB	Vmip3	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	38	conj	_	_	O
+42	după	după	ADP	Spsa	AdpType=Prep|Case=Acc	44	mark	_	_	O
+43	cum	cum	ADV	Rw	PronType=Int,Rel	42	fixed	_	_	O
+44	urmează:1	urmează:1	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	41	nummod	_	SpaceAfter=No	O
+45	.	.	PUNCT	PERIOD	_	38	punct	_	_	O
+
+# sent_id = 5
+# text = La articolul 4 alineatul (1), după punctul 63 se introduc patru noi puncte, punctele 64-67, cu următorul cuprins:64.
+1	La	la	ADP	Spsa	AdpType=Prep|Case=Acc	2	case	_	_	O
+2	articolul	articol	NOUN	Ncmsry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing	13	obl	_	_	O
+3	4	4	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	2	nummod	_	_	O
+4	alineatul	alineat	NOUN	Ncmsry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	_	O
+5	(	(	PUNCT	LPAR	_	6	punct	_	SpaceAfter=No	O
+6	1	1	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	4	nummod	_	SpaceAfter=No	O
+7	)	)	PUNCT	RPAR	_	6	punct	_	SpaceAfter=No	O
+8	,	,	PUNCT	COMMA	_	2	punct	_	_	O
+9	după	după	ADP	Spsa	AdpType=Prep|Case=Acc	10	case	_	_	O
+10	punctul	punct	NOUN	Ncmsry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing	13	obl	_	_	O
+11	63	63	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	10	nummod	_	_	O
+12	se	sine	PRON	Px3--a--------w	Case=Acc|Person=3|PronType=Prs|Reflex=Yes|Strength=Weak	13	expl:pass	_	_	O
+13	introduc	introduce	VERB	Vmip3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_	O
+14	patru	patru	NUM	Mc-p-l	Number=Plur|NumForm=Word|NumType=Card	16	nummod	_	_	O
+15	noi	nou	PRON	Pp1-pr--------s	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs|Strength=Strong	16	amod	_	_	O
+16	puncte	punct	NOUN	Ncfp-n	Definite=Ind|Gender=Fem|Number=Plur	13	nsubj:pass	_	SpaceAfter=No	O
+17	,	,	PUNCT	COMMA	_	18	punct	_	_	O
+18	punctele	punct	NOUN	Ncfpry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Plur	16	appos	_	_	O
+19	64-67	64-67	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	18	nummod	_	SpaceAfter=No	O
+20	,	,	PUNCT	COMMA	_	18	punct	_	_	O
+21	cu	cu	ADP	Spsa	AdpType=Prep|Case=Acc	23	case	_	_	O
+22	următorul	următor	ADJ	Afpmsry	Case=Acc,Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_	O
+23	cuprins:64	cuprins:64	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	18	nummod	_	SpaceAfter=No	O
+24	.	.	PUNCT	PERIOD	_	13	punct	_	_	O
+
+# sent_id = 6
+# text = încheie tratate internaționale la nivel departamental sau inițiază demersurile necesare încheierii tratatelor la nivel de stat sau de Guvern în domeniile de responsabilitate, în condițiile prevăzute de Legea nr. 590 / 2003 privind tratatele sau, după caz, Legea nr. 276 / 2011 privind procedura prin care România devine parte la tratatele încheiate între Uniunea Europeană și statele membre, pe de o parte, și state terțe sau organizații internaționale, pe de altă parte;
+1	încheie	încheia	VERB	Vmis3s	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_	O
+2	tratate	tratat	NOUN	Ncfp-n	Definite=Ind|Gender=Fem|Number=Plur	1	nsubj	_	_	O
+3	internaționale	internațional	ADJ	Afpfp-n	Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	2	amod	_	_	O
+4	la	la	ADP	Spsa	AdpType=Prep|Case=Acc	5	case	_	_	O
+5	nivel	nivel	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	_	O
+6	departamental	departamental	ADJ	Afpms-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_	O
+7	sau	sau	CCONJ	Ccssp	Polarity=Pos	8	cc	_	_	O
+8	inițiază	iniția	VERB	Vmip3	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_	O
+9	demersurile	demers	NOUN	Ncfpry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Plur	8	obj	_	_	O
+10	necesare	necesar	ADJ	Afpfp-n	Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	_	O
+11	încheierii	încheiere	NOUN	Ncfsoy	Case=Dat,Gen|Definite=Def|Gender=Fem|Number=Sing	10	iobj	_	_	O
+12	tratatelor	tratat	NOUN	Ncfpoy	Case=Dat,Gen|Definite=Def|Gender=Fem|Number=Plur	11	nmod	_	_	O
+13	la	la	ADP	Spsa	AdpType=Prep|Case=Acc	14	case	_	_	O
+14	nivel	nivel	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	12	nmod	_	_	O
+15	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	16	case	_	_	O
+16	stat	stat	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	14	nmod	_	_	O
+17	sau	sau	CCONJ	Ccssp	Polarity=Pos	19	cc	_	_	O
+18	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	19	case	_	_	O
+19	Guvern	guvern	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	16	conj	_	_	B-ORG
+20	în	în	ADP	Spsa	AdpType=Prep|Case=Acc	21	case	_	_	O
+21	domeniile	domeniu	NOUN	Ncfpry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Plur	11	nmod	_	_	O
+22	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	23	case	_	_	O
+23	responsabilitate	responsabilitate	NOUN	Ncfsrn	Case=Acc,Nom|Definite=Ind|Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No	O
+24	,	,	PUNCT	COMMA	_	26	punct	_	_	O
+25	în	în	ADP	Spsa	AdpType=Prep|Case=Acc	26	case	_	_	O
+26	condițiile	condiție	NOUN	Ncfpry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Plur	11	nmod	_	_	O
+27	prevăzute	prevedea	VERB	Vmp--pf	Gender=Fem|Number=Plur|VerbForm=Part	26	acl	_	_	O
+28	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	29	case	_	_	O
+29	Legea	lege	NOUN	Ncfsry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing	27	nmod:agent	_	_	B-LAW
+30	nr.	nr.	NOUN	Yn	Abbr=Yes	29	nmod	_	_	I-LAW
+31	590	590	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	30	nummod	_	_	I-LAW
+32	/	/	SYM	SLASH	AdpType=Prep	30	punct	_	_	I-LAW
+33	2003	2003	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	30	nummod	_	_	B-TIME
+34	privind	privind	ADP	Spsa	AdpType=Prep|Case=Acc	35	case	_	_	O
+35	tratatele	tratat	NOUN	Ncfpry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Plur	29	nmod	_	_	O
+36	sau	sau	CCONJ	Ccssp	Polarity=Pos	39	cc	_	SpaceAfter=No	O
+37	,	,	PUNCT	COMMA	_	39	punct	_	_	O
+38	după	după	ADP	Spsa	AdpType=Prep|Case=Acc	39	case	_	_	O
+39	caz	caz	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	35	conj	_	SpaceAfter=No	O
+40	,	,	PUNCT	COMMA	_	39	punct	_	_	O
+41	Legea	lege	NOUN	Ncfsry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing	39	obj	_	_	B-LAW
+42	nr.	nr.	NOUN	Yn	Abbr=Yes	41	nmod	_	_	I-LAW
+43	276	276	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	42	nummod	_	_	I-LAW
+44	/	/	SYM	SLASH	AdpType=Prep	42	punct	_	_	I-LAW
+45	2011	2011	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	42	nummod	_	_	B-TIME
+46	privind	privind	ADP	Spsa	AdpType=Prep|Case=Acc	47	case	_	_	O
+47	procedura	procedură	NOUN	Ncfsry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing	41	nmod	_	_	O
+48	prin	prin	ADP	Spsa	AdpType=Prep|Case=Acc	49	case	_	_	O
+49	care	care	PRON	Pw3--r	Case=Acc,Nom|Person=3|PronType=Int,Rel	51	obl	_	_	O
+50	România	România	PROPN	Np	_	51	nsubj	_	_	B-LOC
+51	devine	deveni	VERB	Vmip3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	47	acl	_	_	O
+52	parte	parte	NOUN	Ncfsrn	Case=Acc,Nom|Definite=Ind|Gender=Fem|Number=Sing	51	xcomp	_	_	O
+53	la	la	ADP	Spsa	AdpType=Prep|Case=Acc	54	case	_	_	O
+54	tratatele	tratat	NOUN	Ncfpry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Plur	51	obl	_	_	O
+55	încheiate	încheia	VERB	Vmp--pf	Gender=Fem|Number=Plur|VerbForm=Part	54	acl	_	_	O
+56	între	între	ADP	Spsa	AdpType=Prep|Case=Acc	57	case	_	_	O
+57	Uniunea	uniune	NOUN	Ncfsry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing	55	obl	_	_	B-ORG
+58	Europeană	european	ADJ	Afpfsrn	Case=Acc,Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	57	amod	_	_	I-ORG
+59	și	și	CCONJ	Crssp	Polarity=Pos	60	cc	_	_	O
+60	statele	stat	NOUN	Ncfpry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Plur	41	conj	_	_	O
+61	membre	membră	NOUN	Ncfp-n	Definite=Ind|Gender=Fem|Number=Plur	60	nmod	_	SpaceAfter=No	O
+62	,	,	PUNCT	COMMA	_	66	punct	_	_	O
+63	pe	pe	ADP	Spsa	AdpType=Prep|Case=Acc	66	case	_	_	O
+64	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	63	fixed	_	_	O
+65	o	un	DET	Tifsr	Case=Acc,Nom|Gender=Fem|Number=Sing|PronType=Ind	66	det	_	_	O
+66	parte	parte	NOUN	Ncfsrn	Case=Acc,Nom|Definite=Ind|Gender=Fem|Number=Sing	41	conj	_	SpaceAfter=No	O
+67	,	,	PUNCT	COMMA	_	66	punct	_	_	O
+68	și	și	CCONJ	Crssp	Polarity=Pos	69	cc	_	_	O
+69	state	stat	NOUN	Ncfp-n	Definite=Ind|Gender=Fem|Number=Plur	66	conj	_	_	O
+70	terțe	terț	ADJ	Afpfp-n	Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	66	amod	_	_	O
+71	sau	sau	CCONJ	Ccssp	Polarity=Pos	72	cc	_	_	O
+72	organizații	organizație	NOUN	Ncfp-n	Definite=Ind|Gender=Fem|Number=Plur	41	conj	_	_	O
+73	internaționale	internațional	ADJ	Afpfp-n	Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	72	amod	_	SpaceAfter=No	O
+74	,	,	PUNCT	COMMA	_	75	punct	_	_	O
+75	pe	pe	ADP	Spsa	AdpType=Prep|Case=Acc	41	conj	_	_	O
+76	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	75	fixed	_	_	O
+77	altă	alt	DET	Di3fsr---e	Case=Acc,Nom|Gender=Fem|Number=Sing|Person=3|Position=Prenom|PronType=Ind	75	fixed	_	_	O
+78	parte	parte	NOUN	Ncfsrn	Case=Acc,Nom|Definite=Ind|Gender=Fem|Number=Sing	75	fixed	_	SpaceAfter=No	O
+79	;	;	PUNCT	SCOLON	AdpType=Prep	75	punct	_	SpacesAfter= 	O
+
+# sent_id = 7
+# text = ... 65. încheie documente de cooperare internațională care nu sunt guvernate de dreptul internațional cu autorități având competențe echivalente din state membre ale Uniunii Europene sau state terțe, respectiv organizații internaționale, în domeniile de responsabilitate;
+1	...	...	PUNCT	HELLIP	_	4	punct	_	SpacesAfter= 	O
+2	65	65	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	4	nsubj	_	SpaceAfter=No	O
+3	.	.	PUNCT	PERIOD	_	2	punct	_	_	O
+4	încheie	încheia	VERB	Vmis3s	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_	O
+5	documente	document	NOUN	Ncfp-n	Definite=Ind|Gender=Fem|Number=Plur	4	obj	_	_	O
+6	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	7	case	_	_	O
+7	cooperare	cooperare	NOUN	Ncfsrn	Case=Acc,Nom|Definite=Ind|Gender=Fem|Number=Sing	5	nmod	_	_	O
+8	internațională	internațional	ADJ	Afpfsrn	Case=Acc,Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_	O
+9	care	care	PRON	Pw3--r	Case=Acc,Nom|Person=3|PronType=Int,Rel	12	nsubj:pass	_	_	O
+10	nu	nu	PART	Qz	Polarity=Neg	12	advmod	_	_	O
+11	sunt	fi	AUX	Vaip3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux:pass	_	_	O
+12	guvernate	guverna	VERB	Vmp--pf	Gender=Fem|Number=Plur|VerbForm=Part	5	acl	_	_	O
+13	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	14	case	_	_	O
+14	dreptul	drept	NOUN	Ncmsry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing	12	nmod:agent	_	_	O
+15	internațional	internațional	ADJ	Afpms-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_	O
+16	cu	cu	ADP	Spsa	AdpType=Prep|Case=Acc	17	case	_	_	O
+17	autorități	autoritate	NOUN	Ncfp-n	Definite=Ind|Gender=Fem|Number=Plur	14	nmod	_	_	O
+18	având	avea	VERB	Vmg	VerbForm=Ger	17	advcl	_	_	O
+19	competențe	competență	NOUN	Ncfp-n	Definite=Ind|Gender=Fem|Number=Plur	18	obj	_	_	O
+20	echivalente	echivalent	ADJ	Afpfp-n	Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	19	amod	_	_	O
+21	din	din	ADP	Spsa	AdpType=Prep|Case=Acc	22	case	_	_	O
+22	state	stat	NOUN	Ncfp-n	Definite=Ind|Gender=Fem|Number=Plur	19	nmod	_	_	O
+23	membre	membră	NOUN	Ncfp-n	Definite=Ind|Gender=Fem|Number=Plur	22	nmod	_	_	O
+24	ale	al	DET	Tsfp	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	25	det	_	_	O
+25	Uniunii	uniune	NOUN	Ncfsoy	Case=Dat,Gen|Definite=Def|Gender=Fem|Number=Sing	23	nmod	_	_	B-ORG
+26	Europene	european	ADJ	Afpfson	Case=Dat,Gen|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	25	fixed	_	_	I-ORG
+27	sau	sau	CCONJ	Ccssp	Polarity=Pos	28	cc	_	_	O
+28	state	stat	NOUN	Ncfp-n	Definite=Ind|Gender=Fem|Number=Plur	18	conj	_	_	O
+29	terțe	terț	ADJ	Afpfp-n	Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	28	amod	_	SpaceAfter=No	O
+30	,	,	PUNCT	COMMA	_	32	punct	_	_	O
+31	respectiv	respectiv	ADV	Rgp	Degree=Pos	32	advmod	_	_	O
+32	organizații	organizație	NOUN	Ncfp-n	Definite=Ind|Gender=Fem|Number=Plur	18	conj	_	_	O
+33	internaționale	internațional	ADJ	Afpfp-n	Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	32	amod	_	SpaceAfter=No	O
+34	,	,	PUNCT	COMMA	_	36	punct	_	_	O
+35	în	în	ADP	Spsa	AdpType=Prep|Case=Acc	36	case	_	_	O
+36	domeniile	domeniu	NOUN	Ncfpry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Plur	18	conj	_	_	O
+37	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	38	case	_	_	O
+38	responsabilitate	responsabilitate	NOUN	Ncfsrn	Case=Acc,Nom|Definite=Ind|Gender=Fem|Number=Sing	36	nmod	_	SpaceAfter=No	O
+39	;	;	PUNCT	SCOLON	AdpType=Prep	4	punct	_	SpacesAfter= 	O
+
+# sent_id = 8
+# text = ... 66. asigură participarea, elaborează și fundamentează pozițiile României în procesul de negociere și adoptare a inițiativelor la nivel european, în domeniul său de activitate, potrivit Hotărârii Guvernului nr. 34 / 2017 privind organizarea și funcționarea Sistemului național de gestionare a afacerilor europene în vederea participării României la procesul decizional al instituțiilor Uniunii Europene;
+1	...	...	PUNCT	HELLIP	_	4	punct	_	SpacesAfter= 	O
+2	66	66	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	4	parataxis	_	SpaceAfter=No	O
+3	.	.	PUNCT	PERIOD	_	2	punct	_	_	O
+4	asigură	asigura	VERB	Vmis3s	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_	O
+5	participarea	participare	NOUN	Ncfsry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No	O
+6	,	,	PUNCT	COMMA	_	7	punct	_	_	O
+7	elaborează	elabora	VERB	Vmip3	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_	O
+8	și	și	CCONJ	Crssp	Polarity=Pos	9	cc	_	_	O
+9	fundamentează	fundamenta	VERB	Vmip3	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_	O
+10	pozițiile	poziție	NOUN	Ncfpry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Plur	4	obj	_	_	O
+11	României	România	PROPN	Npfsoy	Case=Dat,Gen|Definite=Def|Gender=Fem|Number=Sing	10	nmod	_	_	B-LOC
+12	în	în	ADP	Spsa	AdpType=Prep|Case=Acc	13	case	_	_	O
+13	procesul	proces	NOUN	Ncmsry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing	10	nmod	_	_	O
+14	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	15	case	_	_	O
+15	negociere	negociere	NOUN	Ncfsrn	Case=Acc,Nom|Definite=Ind|Gender=Fem|Number=Sing	13	nmod	_	_	O
+16	și	și	CCONJ	Crssp	Polarity=Pos	17	cc	_	_	O
+17	adoptare	adoptare	NOUN	Ncfsrn	Case=Acc,Nom|Definite=Ind|Gender=Fem|Number=Sing	15	conj	_	_	O
+18	a	al	DET	Tsfs	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	19	det	_	_	O
+19	inițiativelor	inițiativă	NOUN	Ncfpoy	Case=Dat,Gen|Definite=Def|Gender=Fem|Number=Plur	13	nmod	_	_	O
+20	la	la	ADP	Spsa	AdpType=Prep|Case=Acc	21	case	_	_	O
+21	nivel	nivel	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	19	nmod	_	_	O
+22	european	european	ADJ	Afpms-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	SpaceAfter=No	O
+23	,	,	PUNCT	COMMA	_	25	punct	_	_	O
+24	în	în	ADP	Spsa	AdpType=Prep|Case=Acc	25	case	_	_	O
+25	domeniul	domeniu	NOUN	Ncmsry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing	13	conj	_	_	O
+26	său	său	DET	Ds3ms-s	Gender=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	25	det	_	_	O
+27	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	28	case	_	_	O
+28	activitate	activitate	NOUN	Ncfsrn	Case=Acc,Nom|Definite=Ind|Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No	O
+29	,	,	PUNCT	COMMA	_	31	punct	_	_	O
+30	potrivit	potrivit	ADP	Spsd	AdpType=Prep|Case=Dat	31	case	_	_	O
+31	Hotărârii	hotărâre	NOUN	Ncfsoy	Case=Dat,Gen|Definite=Def|Gender=Fem|Number=Sing	4	obl	_	_	B-LAW
+32	Guvernului	guvern	NOUN	Ncmsoy	Case=Dat,Gen|Definite=Def|Gender=Masc|Number=Sing	31	nmod	_	_	B-ORG
+33	nr.	nr.	NOUN	Yn	Abbr=Yes	32	nmod	_	_	B-LAW
+34	34	34	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	33	nummod	_	_	I-LAW
+35	/	/	SYM	SLASH	AdpType=Prep	33	punct	_	_	I-LAW
+36	2017	2017	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	33	nummod	_	_	B-TIME
+37	privind	privind	ADP	Spsa	AdpType=Prep|Case=Acc	38	case	_	_	O
+38	organizarea	organizare	NOUN	Ncfsry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing	32	nmod	_	_	O
+39	și	și	CCONJ	Crssp	Polarity=Pos	40	cc	_	_	O
+40	funcționarea	funcționare	NOUN	Ncfsry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing	38	conj	_	_	O
+41	Sistemului	sistem	NOUN	Ncmsoy	Case=Dat,Gen|Definite=Def|Gender=Masc|Number=Sing	40	nmod	_	_	O
+42	național	național	ADJ	Afpms-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	41	amod	_	_	O
+43	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	44	case	_	_	O
+44	gestionare	gestionare	NOUN	Ncfsrn	Case=Acc,Nom|Definite=Ind|Gender=Fem|Number=Sing	41	nmod	_	_	O
+45	a	al	DET	Tsfs	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	46	det	_	_	O
+46	afacerilor	afacere	NOUN	Ncfpoy	Case=Dat,Gen|Definite=Def|Gender=Fem|Number=Plur	44	nmod	_	_	O
+47	europene	european	ADJ	Afpfp-n	Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	46	amod	_	_	O
+48	în	în	ADP	Spsa	AdpType=Prep|Case=Acc	50	case	_	_	O
+49	vederea	vedere	NOUN	Ncfsry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing	48	fixed	_	_	O
+50	participării	participare	NOUN	Ncfsoy	Case=Dat,Gen|Definite=Def|Gender=Fem|Number=Sing	38	nmod	_	_	O
+51	României	România	PROPN	Npfsoy	Case=Dat,Gen|Definite=Def|Gender=Fem|Number=Sing	50	nmod	_	_	B-LOC
+52	la	la	ADP	Spsa	AdpType=Prep|Case=Acc	53	case	_	_	O
+53	procesul	proces	NOUN	Ncmsry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing	50	nmod	_	_	O
+54	decizional	decizional	ADJ	Afpms-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	53	amod	_	_	O
+55	al	al	DET	Tsms	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	56	det	_	_	O
+56	instituțiilor	instituție	NOUN	Ncfpoy	Case=Dat,Gen|Definite=Def|Gender=Fem|Number=Plur	53	nmod	_	_	O
+57	Uniunii	uniune	NOUN	Ncfsoy	Case=Dat,Gen|Definite=Def|Gender=Fem|Number=Sing	56	nmod	_	_	B-ORG
+58	Europene	european	ADJ	Afpfson	Case=Dat,Gen|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	57	amod	_	SpaceAfter=No	I-ORG
+59	;	;	PUNCT	SCOLON	AdpType=Prep	4	punct	_	SpacesAfter= 	O
+
+# sent_id = 9
+# text = ... 67. asigură îndeplinirea, în domeniul de competență, a obligațiilor decurgând din calitatea României de stat membru al Uniunii Europene, inclusiv în ceea ce privește transpunerea și / sau crearea cadrului juridic de aplicare directă a actelor juridice obligatorii ale Uniunii Europene, implementarea și monitorizarea aplicării acestora.
+1	...	...	PUNCT	HELLIP	_	4	punct	_	SpacesAfter= 	O
+2	67	67	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	4	parataxis	_	SpaceAfter=No	O
+3	.	.	PUNCT	PERIOD	_	2	punct	_	_	O
+4	asigură	asigura	VERB	Vmis3s	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_	O
+5	îndeplinirea	îndeplinire	NOUN	Ncfsry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No	O
+6	,	,	PUNCT	COMMA	_	8	punct	_	_	O
+7	în	în	ADP	Spsa	AdpType=Prep|Case=Acc	8	case	_	_	O
+8	domeniul	domeniu	NOUN	Ncmsry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing	4	obl	_	_	O
+9	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	10	case	_	_	O
+10	competență	competență	NOUN	Ncfsrn	Case=Acc,Nom|Definite=Ind|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No	O
+11	,	,	PUNCT	COMMA	_	8	punct	_	_	O
+12	a	al	DET	Tsfs	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	13	det	_	_	O
+13	obligațiilor	obligație	NOUN	Ncfpoy	Case=Dat,Gen|Definite=Def|Gender=Fem|Number=Plur	4	iobj	_	_	O
+14	decurgând	decurge	VERB	Vmg	VerbForm=Ger	13	acl	_	_	O
+15	din	din	ADP	Spsa	AdpType=Prep|Case=Acc	16	case	_	_	O
+16	calitatea	calitate	NOUN	Ncfsry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing	14	obl	_	_	O
+17	României	România	PROPN	Npfsoy	Case=Dat,Gen|Definite=Def|Gender=Fem|Number=Sing	16	nmod	_	_	B-LOC
+18	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	19	case	_	_	O
+19	stat	stat	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	17	nmod	_	_	O
+20	membru	membru	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	19	nmod	_	_	O
+21	al	al	DET	Tsms	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	22	det	_	_	O
+22	Uniunii	uniune	NOUN	Ncfsoy	Case=Dat,Gen|Definite=Def|Gender=Fem|Number=Sing	17	nmod	_	_	B-ORG
+23	Europene	european	ADJ	Afpfson	Case=Dat,Gen|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	22	flat	_	SpaceAfter=No	I-ORG
+24	,	,	PUNCT	COMMA	_	30	punct	_	_	O
+25	inclusiv	inclusiv	ADV	Rgp	Degree=Pos	30	advmod	_	_	O
+26	în	în	ADP	Spsa	AdpType=Prep|Case=Acc	30	case	_	_	O
+27	ceea	acela	PRON	Pd3fsr	Case=Acc,Nom|Gender=Fem|Number=Sing|Person=3|PronType=Dem	26	fixed	_	_	O
+28	ce	ce	PRON	Pw3--r	Case=Acc,Nom|Person=3|PronType=Int,Rel	26	fixed	_	_	O
+29	privește	privi	VERB	Vmip3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	fixed	_	_	O
+30	transpunerea	transpunere	NOUN	Ncfsry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing	16	conj	_	_	O
+31	și	și	CCONJ	Crssp	Polarity=Pos	34	cc	_	_	O
+32	/	/	SYM	SLASH	AdpType=Prep	31	punct	_	_	O
+33	sau	sau	CCONJ	Ccssp	Polarity=Pos	31	conj	_	_	O
+34	crearea	creare	NOUN	Ncfsry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing	30	conj	_	_	O
+35	cadrului	cadru	NOUN	Ncmsoy	Case=Dat,Gen|Definite=Def|Gender=Masc|Number=Sing	34	nmod	_	_	O
+36	juridic	juridic	ADJ	Afpms-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	35	amod	_	_	O
+37	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	38	case	_	_	O
+38	aplicare	aplicare	NOUN	Ncfsrn	Case=Acc,Nom|Definite=Ind|Gender=Fem|Number=Sing	35	nmod	_	_	O
+39	directă	direct	ADJ	Afpfsrn	Case=Acc,Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	38	amod	_	_	O
+40	a	al	DET	Tsfs	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	41	det	_	_	O
+41	actelor	act	NOUN	Ncfpoy	Case=Dat,Gen|Definite=Def|Gender=Fem|Number=Plur	38	nmod	_	_	O
+42	juridice	juridic	ADJ	Afpfp-n	Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	41	amod	_	_	O
+43	obligatorii	obligatoriu	ADJ	Afp-p-n	Definite=Ind|Degree=Pos|Number=Plur	41	amod	_	_	O
+44	ale	al	DET	Tsfp	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	45	det	_	_	O
+45	Uniunii	uniune	NOUN	Ncfsoy	Case=Dat,Gen|Definite=Def|Gender=Fem|Number=Sing	41	nmod	_	_	B-ORG
+46	Europene	european	ADJ	Afpfson	Case=Dat,Gen|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	45	amod	_	SpaceAfter=No	I-ORG
+47	,	,	PUNCT	COMMA	_	48	punct	_	_	O
+48	implementarea	implementare	NOUN	Ncfsry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing	13	conj	_	_	O
+49	și	și	CCONJ	Crssp	Polarity=Pos	50	cc	_	_	O
+50	monitorizarea	monitorizare	NOUN	Ncfsry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing	13	conj	_	_	O
+51	aplicării	aplicare	NOUN	Ncfsoy	Case=Dat,Gen|Definite=Def|Gender=Fem|Number=Sing	50	nmod	_	_	O
+52	acestora	acesta	PRON	Pd3-po	Case=Dat,Gen|Number=Plur|Person=3|PronType=Dem	51	nmod	_	SpaceAfter=No	O
+53	.	.	PUNCT	PERIOD	_	4	punct	_	SpacesAfter= 	O
+
+# sent_id = 10
+# text = ...
+1	...	...	PUNCT	HELLIP	_	0	root	_	SpacesAfter=  	O
+
+# sent_id = 11
+# text = ...
+1	...	...	PUNCT	HELLIP	_	0	root	_	SpacesAfter= 	O
+
+# sent_id = 12
+# text = 2. La articolul 7, alineatul (5) se modifică și va avea următorul cuprins:(5) În îndeplinirea atribuțiilor sale, ministrul sănătății este ajutat de 5 secretari de stat, de un subsecretar de stat, de un secretar general și de 2 secretari generali adjuncți.
+1	2	2	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	12	parataxis	_	SpaceAfter=No	O
+2	.	.	PUNCT	PERIOD	_	1	punct	_	_	O
+3	La	la	ADP	Spsa	AdpType=Prep|Case=Acc	4	case	_	_	O
+4	articolul	articol	NOUN	Ncmsry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing	12	obl	_	_	O
+5	7	7	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	4	nummod	_	SpaceAfter=No	O
+6	,	,	PUNCT	COMMA	_	4	punct	_	_	O
+7	alineatul	alineat	NOUN	Ncmsry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing	12	nsubj:pass	_	_	O
+8	(	(	PUNCT	LPAR	_	9	punct	_	SpaceAfter=No	O
+9	5	5	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	7	nummod	_	SpaceAfter=No	O
+10	)	)	PUNCT	RPAR	_	9	punct	_	_	O
+11	se	sine	PRON	Px3--a--------w	Case=Acc|Person=3|PronType=Prs|Reflex=Yes|Strength=Weak	12	expl:pass	_	_	O
+12	modifică	modifica	VERB	Vmis3s	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	28	parataxis	_	_	O
+13	și	și	CCONJ	Crssp	Polarity=Pos	15	cc	_	_	O
+14	va	vrea	AUX	Va--3s	Number=Sing|Person=3	15	aux	_	_	O
+15	avea	avea	VERB	Vmnp	Tense=Pres|VerbForm=Inf	12	conj	_	_	O
+16	următorul	următor	ADJ	Afpmsry	Case=Acc,Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	15	obj	_	_	O
+17	cuprins:(	cuprins:(	PUNCT	LPAR	_	16	punct	_	SpaceAfter=No	O
+18	5	5	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	16	nummod	_	SpaceAfter=No	O
+19	)	)	PUNCT	RPAR	_	16	punct	_	_	O
+20	În	în	ADP	Spsa	AdpType=Prep|Case=Acc	21	case	_	_	O
+21	îndeplinirea	îndeplinire	NOUN	Ncfsry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing	28	obl	_	_	O
+22	atribuțiilor	atribuție	NOUN	Ncfpoy	Case=Dat,Gen|Definite=Def|Gender=Fem|Number=Plur	21	nmod	_	_	O
+23	sale	său	DET	Ds3fp-s	Gender=Fem|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	22	det	_	SpaceAfter=No	O
+24	,	,	PUNCT	COMMA	_	21	punct	_	_	O
+25	ministrul	ministru	NOUN	Ncmsry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing	28	nsubj:pass	_	_	O
+26	sănătății	sănătate	NOUN	Ncfsoy	Case=Dat,Gen|Definite=Def|Gender=Fem|Number=Sing	25	nmod	_	_	O
+27	este	fi	AUX	Vaip3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux:pass	_	_	O
+28	ajutat	ajuta	VERB	Vmp--sm	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_	O
+29	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	31	case	_	_	O
+30	5	5	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	31	nummod	_	_	O
+31	secretari	secretar	NOUN	Ncmp-n	Definite=Ind|Gender=Masc|Number=Plur	28	nmod:agent	_	_	O
+32	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	33	case	_	_	O
+33	stat	stat	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	31	nmod	_	SpaceAfter=No	O
+34	,	,	PUNCT	COMMA	_	37	punct	_	_	O
+35	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	37	case	_	_	O
+36	un	un	DET	Timsr	Case=Acc,Nom|Gender=Masc|Number=Sing|PronType=Ind	37	det	_	_	O
+37	subsecretar	subsecretar	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	31	conj	_	_	O
+38	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	39	case	_	_	O
+39	stat	stat	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	37	nmod	_	SpaceAfter=No	O
+40	,	,	PUNCT	COMMA	_	43	punct	_	_	O
+41	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	43	case	_	_	O
+42	un	un	DET	Timsr	Case=Acc,Nom|Gender=Masc|Number=Sing|PronType=Ind	43	det	_	_	O
+43	secretar	secretar	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	31	nmod	_	_	O
+44	general	general	ADJ	Afpms-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	43	amod	_	_	O
+45	și	și	CCONJ	Crssp	Polarity=Pos	48	cc	_	_	O
+46	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	48	case	_	_	O
+47	2	2	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	48	nummod	_	_	O
+48	secretari	secretar	NOUN	Ncmp-n	Definite=Ind|Gender=Masc|Number=Plur	43	conj	_	_	O
+49	generali	general	ADJ	Afpmp-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur	48	amod	_	_	O
+50	adjuncți	adjunct	ADJ	Afpmp-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur	48	amod	_	SpaceAfter=No	O
+51	.	.	PUNCT	PERIOD	_	28	punct	_	SpacesAfter= 	O
+
+# sent_id = 13
+# text = ... 3. Articolul 8 se modifică și va avea următorul cuprins:
+1	...	...	PUNCT	HELLIP	_	7	punct	_	SpacesAfter= 	O
+2	3	3	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	7	parataxis	_	SpaceAfter=No	O
+3	.	.	PUNCT	PERIOD	_	2	punct	_	_	O
+4	Articolul	articol	NOUN	Ncmsry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing	7	nsubj:pass	_	_	O
+5	8	8	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	4	nummod	_	_	O
+6	se	sine	PRON	Px3--a--------w	Case=Acc|Person=3|PronType=Prs|Reflex=Yes|Strength=Weak	7	expl:pass	_	_	O
+7	modifică	modifica	VERB	Vmis3s	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_	O
+8	și	și	CCONJ	Crssp	Polarity=Pos	10	cc	_	_	O
+9	va	vrea	AUX	Va--3s	Number=Sing|Person=3	10	aux	_	_	O
+10	avea	avea	VERB	Vmnp	Tense=Pres|VerbForm=Inf	7	conj	_	_	O
+11	următorul	următor	NOUN	Ncmsry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing	10	obj	_	_	O
+12	cuprins	cuprinde	ADJ	Afpms-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	SpaceAfter=No	O
+13	:	:	PUNCT	COLON	_	7	punct	_	_	O
+
+# sent_id = 14
+# text = Articolul 8(1) Secretarii de stat și subsecretarul de stat îndeplinesc în principal următoarele atribuții:a) coordonează activitatea structurilor din cadrul ministerului, stabilite prin ordin al ministrului sănătății;
+1	Articolul	articol	NOUN	Ncmsry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing	12	parataxis	_	_	O
+2	8(	8(	PUNCT	LPAR	_	1	punct	_	SpaceAfter=No	O
+3	1	1	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	1	nummod	_	SpaceAfter=No	O
+4	)	)	PUNCT	RPAR	_	1	punct	_	_	O
+5	Secretarii	secretar	NOUN	Ncmpry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Plur	12	nsubj	_	_	O
+6	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	7	case	_	_	O
+7	stat	stat	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	5	nmod	_	_	O
+8	și	și	CCONJ	Crssp	Polarity=Pos	9	cc	_	_	O
+9	subsecretarul	subsecretar	NOUN	Ncmsry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing	5	conj	_	_	O
+10	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	11	case	_	_	O
+11	stat	stat	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	9	nmod	_	_	O
+12	îndeplinesc	îndeplini	VERB	Vmip3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_	O
+13	în	în	ADP	Spsa	AdpType=Prep|Case=Acc	15	advmod	_	_	O
+14	principal	principal	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	13	fixed	_	_	O
+15	următoarele	următor	ADJ	Afpfpry	Case=Acc,Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	16	amod	_	_	O
+16	atribuții:a	atribuții:	NOUN	Ncfsry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing	12	obj	_	SpaceAfter=No	O
+17	)	)	PUNCT	RPAR	_	12	punct	_	_	O
+18	coordonează	coordona	VERB	Vmip3	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	12	parataxis	_	_	O
+19	activitatea	activitate	NOUN	Ncfsry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing	18	obj	_	_	O
+20	structurilor	structură	NOUN	Ncfpoy	Case=Dat,Gen|Definite=Def|Gender=Fem|Number=Plur	19	nmod	_	_	O
+21	din	din	ADP	Spsa	AdpType=Prep|Case=Acc	23	case	_	_	O
+22	cadrul	cadru	NOUN	Ncmsry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing	21	fixed	_	_	O
+23	ministerului	minister	NOUN	Ncmsoy	Case=Dat,Gen|Definite=Def|Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No	O
+24	,	,	PUNCT	COMMA	_	25	punct	_	_	O
+25	stabilite	stabili	VERB	Vmp--pf	Gender=Fem|Number=Plur|VerbForm=Part	20	acl	_	_	O
+26	prin	prin	ADP	Spsa	AdpType=Prep|Case=Acc	27	case	_	_	O
+27	ordin	ordin	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	25	obl	_	_	O
+28	al	al	DET	Tsms	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	29	det	_	_	O
+29	ministrului	ministru	NOUN	Ncmsoy	Case=Dat,Gen|Definite=Def|Gender=Masc|Number=Sing	27	nmod	_	_	O
+30	sănătății	sănătate	NOUN	Ncfsoy	Case=Dat,Gen|Definite=Def|Gender=Fem|Number=Sing	29	nmod	_	SpaceAfter=No	O
+31	;	;	PUNCT	SCOLON	AdpType=Prep	12	punct	_	SpacesAfter= 	O
+
+# sent_id = 15
+# text = ... b) avizează documentele elaborate sau avizate de structurile din cadrul ministerului, pe care le coordonează;
+1	...	...	PUNCT	HELLIP	_	2	punct	_	SpacesAfter= 	O
+2	b	b	NOUN	Ncm--n	Definite=Ind|Gender=Masc	4	parataxis	_	SpaceAfter=No	O
+3	)	)	PUNCT	RPAR	_	2	punct	_	_	O
+4	avizează	aviza	VERB	Vmip3	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_	O
+5	documentele	document	NOUN	Ncfpry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Plur	4	obj	_	_	O
+6	elaborate	elabora	VERB	Vmp--pf	Gender=Fem|Number=Plur|VerbForm=Part	5	acl	_	_	O
+7	sau	sau	CCONJ	Ccssp	Polarity=Pos	8	cc	_	_	O
+8	avizate	aviza	VERB	Vmp--pf	Gender=Fem|Number=Plur|VerbForm=Part	6	conj	_	_	O
+9	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	10	case	_	_	O
+10	structurile	structură	NOUN	Ncfpry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Plur	6	nmod:agent	_	_	O
+11	din	din	ADP	Spsa	AdpType=Prep|Case=Acc	13	case	_	_	O
+12	cadrul	cadru	NOUN	Ncmsry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing	11	fixed	_	_	O
+13	ministerului	minister	NOUN	Ncmsoy	Case=Dat,Gen|Definite=Def|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No	O
+14	,	,	PUNCT	COMMA	_	18	punct	_	_	O
+15	pe	pe	ADP	Spsa	AdpType=Prep|Case=Acc	16	case	_	_	O
+16	care	care	PRON	Pw3--r	Case=Acc,Nom|Person=3|PronType=Int,Rel	18	obl	_	_	O
+17	le	el	PRON	Pp3fpa--------w	Case=Acc|Gender=Fem|Number=Plur|Person=3|PronType=Prs|Strength=Weak	18	obj	_	_	O
+18	coordonează	coordonea	VERB	Vmip3	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	5	acl	_	SpaceAfter=No	O
+19	;	;	PUNCT	SCOLON	AdpType=Prep	4	punct	_	SpacesAfter= 	O
+
+# sent_id = 16
+# text = ... c) coordonează activitatea instituțiilor aflate în subordinea ministerului, stabilite prin ordin al ministrului sănătății.
+1	...	...	PUNCT	HELLIP	_	2	punct	_	SpacesAfter= 	O
+2	c	c	NOUN	Ncm--n	Definite=Ind|Gender=Masc	4	parataxis	_	SpaceAfter=No	O
+3	)	)	PUNCT	RPAR	_	2	punct	_	_	O
+4	coordonează	coordona	VERB	Vmip3	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_	O
+5	activitatea	activitate	NOUN	Ncfsry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing	4	obj	_	_	O
+6	instituțiilor	instituție	NOUN	Ncfpoy	Case=Dat,Gen|Definite=Def|Gender=Fem|Number=Plur	5	nmod	_	_	O
+7	aflate	afla	VERB	Vmp--pf	Gender=Fem|Number=Plur|VerbForm=Part	6	acl	_	_	O
+8	în	în	ADP	Spsa	AdpType=Prep|Case=Acc	9	case	_	_	O
+9	subordinea	subordine	NOUN	Ncfsry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing	7	obl	_	_	O
+10	ministerului	minister	NOUN	Ncmsoy	Case=Dat,Gen|Definite=Def|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No	O
+11	,	,	PUNCT	COMMA	_	12	punct	_	_	O
+12	stabilite	stabili	VERB	Vmp--pf	Gender=Fem|Number=Plur|VerbForm=Part	6	acl	_	_	O
+13	prin	prin	ADP	Spsa	AdpType=Prep|Case=Acc	14	case	_	_	O
+14	ordin	ordin	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	12	obl	_	_	O
+15	al	al	DET	Tsms	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	16	det	_	_	O
+16	ministrului	ministru	NOUN	Ncmsoy	Case=Dat,Gen|Definite=Def|Gender=Masc|Number=Sing	14	nmod	_	_	O
+17	sănătății	sănătate	NOUN	Ncfsoy	Case=Dat,Gen|Definite=Def|Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No	O
+18	.	.	PUNCT	PERIOD	_	4	punct	_	SpacesAfter= 	O
+
+# sent_id = 17
+# text = ...
+1	...	...	PUNCT	HELLIP	_	0	root	_	SpacesAfter= 	O
+
+# sent_id = 18
+# text = (2) Secretarii de stat și subsecretarul de stat se subordonează ministrului sănătății și îndeplinesc și alte atribuții stabilite prin ordin al ministrului sănătății.
+1	(	(	PUNCT	LPAR	_	2	punct	_	SpaceAfter=No	O
+2	2	2	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	12	parataxis	_	SpaceAfter=No	O
+3	)	)	PUNCT	RPAR	_	2	punct	_	_	O
+4	Secretarii	secretar	NOUN	Ncmpry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Plur	12	nsubj	_	_	O
+5	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	6	case	_	_	O
+6	stat	stat	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	4	nmod	_	_	O
+7	și	și	CCONJ	Crssp	Polarity=Pos	8	cc	_	_	O
+8	subsecretarul	subsecretar	NOUN	Ncmsry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing	4	conj	_	_	O
+9	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	10	case	_	_	O
+10	stat	stat	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	8	nmod	_	_	O
+11	se	sine	PRON	Px3--a--------w	Case=Acc|Person=3|PronType=Prs|Reflex=Yes|Strength=Weak	12	expl:pv	_	_	O
+12	subordonează	subordona	VERB	Vmip3	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_	O
+13	ministrului	ministru	NOUN	Ncmsoy	Case=Dat,Gen|Definite=Def|Gender=Masc|Number=Sing	12	iobj	_	_	O
+14	sănătății	sănătate	NOUN	Ncfsoy	Case=Dat,Gen|Definite=Def|Gender=Fem|Number=Sing	13	nmod	_	_	O
+15	și	și	CCONJ	Crssp	Polarity=Pos	16	cc	_	_	O
+16	îndeplinesc	îndeplini	VERB	Vmip3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_	O
+17	și	și	CCONJ	Crssp	Polarity=Pos	19	advmod	_	_	O
+18	alte	alt	DET	Di3fpr---e	Case=Acc,Nom|Gender=Fem|Number=Plur|Person=3|Position=Prenom|PronType=Ind	19	det	_	_	O
+19	atribuții	atribuție	NOUN	Ncfp-n	Definite=Ind|Gender=Fem|Number=Plur	16	obj	_	_	O
+20	stabilite	stabili	VERB	Vmp--pf	Gender=Fem|Number=Plur|VerbForm=Part	19	acl	_	_	O
+21	prin	prin	ADP	Spsa	AdpType=Prep|Case=Acc	22	case	_	_	O
+22	ordin	ordin	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	20	obl	_	_	O
+23	al	al	DET	Tsms	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	24	det	_	_	O
+24	ministrului	ministru	NOUN	Ncmsoy	Case=Dat,Gen|Definite=Def|Gender=Masc|Number=Sing	22	nmod	_	_	O
+25	sănătății	sănătate	NOUN	Ncfsoy	Case=Dat,Gen|Definite=Def|Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No	O
+26	.	.	PUNCT	PERIOD	_	12	punct	_	SpacesAfter= 	O
+
+# sent_id = 19
+# text = ... 4. La articolul 13, alineatul (2) se abrogă.
+1	...	...	PUNCT	HELLIP	_	13	punct	_	SpacesAfter= 	O
+2	4	4	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	13	parataxis	_	SpaceAfter=No	O
+3	.	.	PUNCT	PERIOD	_	2	punct	_	_	O
+4	La	la	ADP	Spsa	AdpType=Prep|Case=Acc	5	case	_	_	O
+5	articolul	articol	NOUN	Ncmsry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing	13	obl	_	_	O
+6	13	13	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	5	nummod	_	SpaceAfter=No	O
+7	,	,	PUNCT	COMMA	_	5	punct	_	_	O
+8	alineatul	alineat	NOUN	Ncmsry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	_	O
+9	(	(	PUNCT	LPAR	_	10	punct	_	SpaceAfter=No	O
+10	2	2	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	8	nummod	_	SpaceAfter=No	O
+11	)	)	PUNCT	RPAR	_	10	punct	_	_	O
+12	se	sine	PRON	Px3--a--------w	Case=Acc|Person=3|PronType=Prs|Reflex=Yes|Strength=Weak	13	expl:pass	_	_	O
+13	abrogă	abroga	VERB	Vmis3s	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No	O
+14	.	.	PUNCT	PERIOD	_	13	punct	_	SpacesAfter= 	O
+
+# sent_id = 20
+# text = ... 5. La articolul 13, alineatul (3) se modifică și va avea următorul cuprins:(3) Numărul maxim de posturi este de 384, exclusiv demnitarii și posturile aferente cabinetului ministrului.
+1	...	...	PUNCT	HELLIP	_	13	punct	_	SpacesAfter= 	O
+2	5	5	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	13	parataxis	_	SpaceAfter=No	O
+3	.	.	PUNCT	PERIOD	_	2	punct	_	_	O
+4	La	la	ADP	Spsa	AdpType=Prep|Case=Acc	5	case	_	_	O
+5	articolul	articol	NOUN	Ncmsry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing	13	obl	_	_	O
+6	13	13	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	5	nummod	_	SpaceAfter=No	O
+7	,	,	PUNCT	COMMA	_	5	punct	_	_	O
+8	alineatul	alineat	NOUN	Ncmsry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing	13	nsubj	_	_	O
+9	(	(	PUNCT	LPAR	_	10	punct	_	SpaceAfter=No	O
+10	3	3	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	8	nummod	_	SpaceAfter=No	O
+11	)	)	PUNCT	RPAR	_	10	punct	_	_	O
+12	se	sine	PRON	Px3--a--------w	Case=Acc|Person=3|PronType=Prs|Reflex=Yes|Strength=Weak	13	expl:pass	_	_	O
+13	modifică	modifica	VERB	Vmis3s	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_	O
+14	și	și	CCONJ	Crssp	Polarity=Pos	16	cc	_	_	O
+15	va	vrea	AUX	Va--3s	Number=Sing|Person=3	16	aux	_	_	O
+16	avea	avea	VERB	Vmnp	Tense=Pres|VerbForm=Inf	13	conj	_	_	O
+17	următorul	următor	ADJ	Afpmsry	Case=Acc,Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_	O
+18	cuprins:(	cuprins:(	PUNCT	LPAR	_	19	punct	_	SpaceAfter=No	O
+19	3	3	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	17	nummod	_	SpaceAfter=No	O
+20	)	)	PUNCT	RPAR	_	19	punct	_	_	O
+21	Numărul	număr	NOUN	Ncmsry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing	16	obj	_	_	O
+22	maxim	maxim	ADJ	Afpms-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_	O
+23	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	24	case	_	_	O
+24	posturi	post	NOUN	Ncfp-n	Definite=Ind|Gender=Fem|Number=Plur	21	nmod	_	_	O
+25	este	fi	AUX	Vmip3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	cop	_	_	O
+26	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	27	case	_	_	O
+27	384	384	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	13	conj	_	SpaceAfter=No	O
+28	,	,	PUNCT	COMMA	_	30	punct	_	_	O
+29	exclusiv	exclusiv	ADV	Rgp	Degree=Pos	30	advmod	_	_	O
+30	demnitarii	demnitar	NOUN	Ncmpry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Plur	13	conj	_	_	O
+31	și	și	CCONJ	Crssp	Polarity=Pos	32	advmod	_	_	O
+32	posturile	post	NOUN	Ncfpry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Plur	13	obj	_	_	O
+33	aferente	aferent	ADJ	Afpfp-n	Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	32	amod	_	_	O
+34	cabinetului	cabinet	NOUN	Ncmsoy	Case=Dat,Gen|Definite=Def|Gender=Masc|Number=Sing	33	iobj	_	_	O
+35	ministrului	ministru	NOUN	Ncmsoy	Case=Dat,Gen|Definite=Def|Gender=Masc|Number=Sing	34	nmod	_	SpaceAfter=No	O
+36	.	.	PUNCT	PERIOD	_	13	punct	_	SpacesAfter= 	O
+
+# sent_id = 21
+# text = ... 6.
+1	...	...	PUNCT	HELLIP	_	2	punct	_	SpacesAfter= 	O
+2	6	6	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	0	root	_	SpaceAfter=No	O
+3	.	.	PUNCT	PERIOD	_	2	punct	_	_	O
+
+# sent_id = 22
+# text = La articolul 13, alineatul (3^1) se abrogă.
+1	La	la	ADP	Spsa	AdpType=Prep|Case=Acc	2	case	_	_	O
+2	articolul	articol	NOUN	Ncmsry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing	10	obl	_	_	O
+3	13	13	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	2	nummod	_	SpaceAfter=No	O
+4	,	,	PUNCT	COMMA	_	2	punct	_	_	O
+5	alineatul	alineat	NOUN	Ncmsry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing	10	nsubj:pass	_	_	O
+6	(	(	PUNCT	LPAR	_	7	punct	_	SpaceAfter=No	O
+7	3^1	3^1	NOUN	Ncm--n	Definite=Ind|Gender=Masc	5	nmod	_	SpaceAfter=No	O
+8	)	)	PUNCT	RPAR	_	7	punct	_	_	O
+9	se	sine	PRON	Px3--a--------w	Case=Acc|Person=3|PronType=Prs|Reflex=Yes|Strength=Weak	10	expl:pass	_	_	O
+10	abrogă	abroga	VERB	Vmis3s	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No	O
+11	.	.	PUNCT	PERIOD	_	10	punct	_	SpacesAfter= 	O
+
+# sent_id = 23
+# text = ... 7. Articolul 13^1 se abrogă.
+1	...	...	PUNCT	HELLIP	_	7	punct	_	SpacesAfter= 	O
+2	7	7	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	7	parataxis	_	SpaceAfter=No	O
+3	.	.	PUNCT	PERIOD	_	2	punct	_	_	O
+4	Articolul	articol	NOUN	Ncmsry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing	7	nsubj:pass	_	_	O
+5	13^1	13^1	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	4	nummod	_	_	O
+6	se	sine	PRON	Px3--a--------w	Case=Acc|Person=3|PronType=Prs|Reflex=Yes|Strength=Weak	7	expl:pass	_	_	O
+7	abrogă	abroga	VERB	Vmis3s	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No	O
+8	.	.	PUNCT	PERIOD	_	7	punct	_	SpacesAfter= 	O
+
+# sent_id = 24
+# text = ... 8. La articolul 14, alineatul (4) se modifică și va avea următorul cuprins:(4) Statele de funcții pentru instituțiile din subordinea Ministerului Sănătății se aprobă prin ordin al ministrului sănătății, o dată pe an, în termen de 60 de zile de la aprobarea bugetului de venituri și cheltuieli, cu încadrarea în normativele de personal și în bugetul de venituri și cheltuieli aprobat.
+1	...	...	PUNCT	HELLIP	_	13	punct	_	SpacesAfter= 	O
+2	8	8	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	13	parataxis	_	SpaceAfter=No	O
+3	.	.	PUNCT	PERIOD	_	2	punct	_	_	O
+4	La	la	ADP	Spsa	AdpType=Prep|Case=Acc	5	case	_	_	O
+5	articolul	articol	NOUN	Ncmsry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing	13	obl	_	_	O
+6	14	14	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	5	nummod	_	SpaceAfter=No	O
+7	,	,	PUNCT	COMMA	_	5	punct	_	_	O
+8	alineatul	alineat	NOUN	Ncmsry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing	13	nsubj	_	_	O
+9	(	(	PUNCT	LPAR	_	10	punct	_	SpaceAfter=No	O
+10	4	4	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	8	nummod	_	SpaceAfter=No	O
+11	)	)	PUNCT	RPAR	_	10	punct	_	_	O
+12	se	sine	PRON	Px3--a--------w	Case=Acc|Person=3|PronType=Prs|Reflex=Yes|Strength=Weak	13	expl:pass	_	_	O
+13	modifică	modifica	VERB	Vmis3s	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	31	nsubj:pass	_	_	O
+14	și	și	CCONJ	Crssp	Polarity=Pos	16	cc	_	_	O
+15	va	vrea	AUX	Va--3s	Number=Sing|Person=3	16	aux	_	_	O
+16	avea	avea	VERB	Vmnp	Tense=Pres|VerbForm=Inf	13	conj	_	_	O
+17	următorul	următor	ADJ	Afpmsry	Case=Acc,Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_	O
+18	cuprins:(	cuprins:(	PUNCT	LPAR	_	19	punct	_	SpaceAfter=No	O
+19	4	4	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	17	nummod	_	SpaceAfter=No	O
+20	)	)	PUNCT	RPAR	_	19	punct	_	_	O
+21	Statele	State	NOUN	Ncfpry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Plur	16	obj	_	_	O
+22	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	23	case	_	_	O
+23	funcții	funcție	NOUN	Ncfp-n	Definite=Ind|Gender=Fem|Number=Plur	21	nmod	_	_	O
+24	pentru	pentru	ADP	Spsa	AdpType=Prep|Case=Acc	25	case	_	_	O
+25	instituțiile	instituție	NOUN	Ncfpry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Plur	21	nmod	_	_	O
+26	din	din	ADP	Spsa	AdpType=Prep|Case=Acc	27	case	_	_	O
+27	subordinea	subordine	NOUN	Ncfsry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing	25	nmod	_	_	O
+28	Ministerului	minister	NOUN	Ncmsoy	Case=Dat,Gen|Definite=Def|Gender=Masc|Number=Sing	27	nmod	_	_	B-ORG
+29	Sănătății	sănătate	NOUN	Ncfsoy	Case=Dat,Gen|Definite=Def|Gender=Fem|Number=Sing	28	nmod	_	_	I-ORG
+30	se	sine	PRON	Px3--a--------w	Case=Acc|Person=3|PronType=Prs|Reflex=Yes|Strength=Weak	31	expl:pass	_	_	O
+31	aprobă	aproba	VERB	Vmis3s	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_	O
+32	prin	prin	ADP	Spsa	AdpType=Prep|Case=Acc	33	case	_	_	O
+33	ordin	ordin	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	31	obl	_	_	O
+34	al	al	DET	Tsms	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	35	det	_	_	O
+35	ministrului	ministru	NOUN	Ncmsoy	Case=Dat,Gen|Definite=Def|Gender=Masc|Number=Sing	33	nmod	_	_	O
+36	sănătății	sănătate	NOUN	Ncfsoy	Case=Dat,Gen|Definite=Def|Gender=Fem|Number=Sing	35	nmod	_	SpaceAfter=No	O
+37	,	,	PUNCT	COMMA	_	39	punct	_	_	O
+38	o	un	DET	Tifsr	Case=Acc,Nom|Gender=Fem|Number=Sing|PronType=Ind	39	det	_	_	O
+39	dată	dată	NOUN	Ncfsrn	Case=Acc,Nom|Definite=Ind|Gender=Fem|Number=Sing	31	obl	_	_	O
+40	pe	pe	ADP	Spsa	AdpType=Prep|Case=Acc	41	case	_	_	O
+41	an	an	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	39	nmod	_	SpaceAfter=No	O
+42	,	,	PUNCT	COMMA	_	39	punct	_	_	O
+43	în	în	ADP	Spsa	AdpType=Prep|Case=Acc	44	case	_	_	O
+44	termen	termen	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	31	obl	_	_	O
+45	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	48	case	_	_	O
+46	60	60	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	48	nummod	_	_	O
+47	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	46	case	_	_	O
+48	zile	zi	NOUN	Ncfp-n	Definite=Ind|Gender=Fem|Number=Plur	44	nmod	_	_	O
+49	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	51	case	_	_	O
+50	la	la	ADP	Spsa	AdpType=Prep|Case=Acc	49	fixed	_	_	O
+51	aprobarea	aprobare	NOUN	Ncfsry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing	48	nmod	_	_	O
+52	bugetului	buget	NOUN	Ncmsoy	Case=Dat,Gen|Definite=Def|Gender=Masc|Number=Sing	51	nmod	_	_	O
+53	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	54	case	_	_	O
+54	venituri	venit	NOUN	Ncfp-n	Definite=Ind|Gender=Fem|Number=Plur	52	nmod	_	_	O
+55	și	și	CCONJ	Crssp	Polarity=Pos	56	cc	_	_	O
+56	cheltuieli	cheltuială	NOUN	Ncfp-n	Definite=Ind|Gender=Fem|Number=Plur	54	conj	_	SpaceAfter=No	O
+57	,	,	PUNCT	COMMA	_	59	punct	_	_	O
+58	cu	cu	ADP	Spsa	AdpType=Prep|Case=Acc	59	case	_	_	O
+59	încadrarea	încadrare	NOUN	Ncfsry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing	31	obl	_	_	O
+60	în	în	ADP	Spsa	AdpType=Prep|Case=Acc	61	case	_	_	O
+61	normativele	normativă	NOUN	Ncfpry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Plur	59	nmod	_	_	O
+62	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	63	case	_	_	O
+63	personal	personal	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	61	nmod	_	_	O
+64	și	și	CCONJ	Crssp	Polarity=Pos	66	cc	_	_	O
+65	în	în	ADP	Spsa	AdpType=Prep|Case=Acc	66	case	_	_	O
+66	bugetul	buget	NOUN	Ncmsry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing	59	conj	_	_	O
+67	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	68	case	_	_	O
+68	venituri	venit	NOUN	Ncfp-n	Definite=Ind|Gender=Fem|Number=Plur	66	nmod	_	_	O
+69	și	și	CCONJ	Crssp	Polarity=Pos	70	cc	_	_	O
+70	cheltuieli	cheltuială	NOUN	Ncfp-n	Definite=Ind|Gender=Fem|Number=Plur	68	conj	_	_	O
+71	aprobat	aprobat	ADJ	Afpms-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	70	amod	_	SpaceAfter=No	O
+72	.	.	PUNCT	PERIOD	_	31	punct	_	SpacesAfter= 	O
+
+# sent_id = 25
+# text = ... 9. Anexa nr. 1 se modifică și se înlocuiește cu anexa la prezenta hotărâre.
+1	...	...	PUNCT	HELLIP	_	8	punct	_	SpacesAfter= 	O
+2	9	9	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	8	parataxis	_	SpaceAfter=No	O
+3	.	.	PUNCT	PERIOD	_	2	punct	_	_	O
+4	Anexa	anexă	NOUN	Ncfsry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing	8	nsubj:pass	_	_	O
+5	nr.	nr.	NOUN	Yn	Abbr=Yes	4	nmod	_	_	O
+6	1	1	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	5	nummod	_	_	O
+7	se	sine	PRON	Px3--a--------w	Case=Acc|Person=3|PronType=Prs|Reflex=Yes|Strength=Weak	8	expl:pass	_	_	O
+8	modifică	modifica	VERB	Vmis3s	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_	O
+9	și	și	CCONJ	Crssp	Polarity=Pos	11	cc	_	_	O
+10	se	sine	PRON	Px3--a--------w	Case=Acc|Person=3|PronType=Prs|Reflex=Yes|Strength=Weak	11	expl:pass	_	_	O
+11	înlocuiește	înlocui	VERB	Vmip3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_	O
+12	cu	cu	ADP	Spsa	AdpType=Prep|Case=Acc	13	case	_	_	O
+13	anexa	anexă	NOUN	Ncfsry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing	11	nmod:pmod	_	_	O
+14	la	la	ADP	Spsa	AdpType=Prep|Case=Acc	16	case	_	_	O
+15	prezenta	prezent	ADJ	Afpfsry	Case=Acc,Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_	O
+16	hotărâre	hotărâre	NOUN	Ncfsrn	Case=Acc,Nom|Definite=Ind|Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No	O
+17	.	.	PUNCT	PERIOD	_	8	punct	_	SpacesAfter= 	O
+
+# sent_id = 26
+# text = ...
+1	...	...	PUNCT	HELLIP	_	0	root	_	SpacesAfter= \r\n	O
+
+# sent_id = 27
+# text = Articolul II
+1	Articolul	articol	NOUN	Ncmsry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	_	O
+2	II	doi	NUM	Mo-s-r	Number=Sing|NumForm=Roman|NumType=Ord	1	nummod	_	SpacesAfter=\r\n\r\n	O
+
+# newpar
+# sent_id = 28
+# text = Încadrarea în noua structură organizatorică se realizează în termen de minimum 30 de zile de la data intrării în vigoare a prezentei hotărâri, cu respectarea prevederilor legale aplicabile personalului contractual și funcționarilor publici în cazul reorganizării instituției publice.
+1	Încadrarea	Încadrare	NOUN	Ncfsry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing	7	nsubj:pass	_	_	O
+2	în	în	ADP	Spsa	AdpType=Prep|Case=Acc	4	case	_	_	O
+3	noua	nou	ADJ	Afpfsry	Case=Acc,Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_	O
+4	structură	structură	NOUN	Ncfsrn	Case=Acc,Nom|Definite=Ind|Gender=Fem|Number=Sing	1	nmod	_	_	O
+5	organizatorică	organizatoric	ADJ	Afpfsrn	Case=Acc,Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_	O
+6	se	sine	PRON	Px3--a--------w	Case=Acc|Person=3|PronType=Prs|Reflex=Yes|Strength=Weak	7	expl:pass	_	_	O
+7	realizează	realiza	VERB	Vmip3	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_	O
+8	în	în	ADP	Spsa	AdpType=Prep|Case=Acc	14	advmod	_	_	O
+9	termen	termen	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	8	fixed	_	_	O
+10	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	8	fixed	_	_	O
+11	minimum	minimum	ADV	Rgp	Degree=Pos	8	fixed	_	_	O
+12	30	30	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	14	nummod	_	_	O
+13	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	12	case	_	_	O
+14	zile	zi	NOUN	Ncfp-n	Definite=Ind|Gender=Fem|Number=Plur	7	obl	_	_	O
+15	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	17	case	_	_	O
+16	la	la	ADP	Spsa	AdpType=Prep|Case=Acc	15	fixed	_	_	O
+17	data	dată	NOUN	Ncfsry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing	14	nmod	_	_	O
+18	intrării	intrare	NOUN	Ncfsoy	Case=Dat,Gen|Definite=Def|Gender=Fem|Number=Sing	17	nmod	_	_	O
+19	în	în	ADP	Spsa	AdpType=Prep|Case=Acc	18	advmod	_	_	O
+20	vigoare	vigoare	NOUN	Ncfsrn	Case=Acc,Nom|Definite=Ind|Gender=Fem|Number=Sing	19	fixed	_	_	O
+21	a	al	DET	Tsfs	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	23	det	_	_	O
+22	prezentei	prezent	ADJ	Afpfsoy	Case=Dat,Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_	O
+23	hotărâri	hotărâre	NOUN	Ncfson	Case=Dat,Gen|Definite=Ind|Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No	O
+24	,	,	PUNCT	COMMA	_	14	punct	_	_	O
+25	cu	cu	ADP	Spsa	AdpType=Prep|Case=Acc	26	case	_	_	O
+26	respectarea	respectare	NOUN	Ncfsry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing	14	nmod	_	_	O
+27	prevederilor	prevedere	NOUN	Ncfpoy	Case=Dat,Gen|Definite=Def|Gender=Fem|Number=Plur	26	nmod	_	_	O
+28	legale	legal	ADJ	Afpfp-n	Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	27	amod	_	_	O
+29	aplicabile	aplicabil	ADJ	Afpfp-n	Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	27	amod	_	_	O
+30	personalului	personal	NOUN	Ncmsoy	Case=Dat,Gen|Definite=Def|Gender=Masc|Number=Sing	29	iobj	_	_	O
+31	contractual	contractual	ADJ	Afpms-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	30	amod	_	_	O
+32	și	și	CCONJ	Crssp	Polarity=Pos	33	cc	_	_	O
+33	funcționarilor	funcționare	NOUN	Ncmpoy	Case=Dat,Gen|Definite=Def|Gender=Masc|Number=Plur	30	conj	_	_	O
+34	publici	public	ADJ	Afpmp-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur	33	amod	_	_	O
+35	în	în	ADP	Spsa	AdpType=Prep|Case=Acc	36	case	_	_	O
+36	cazul	caz	NOUN	Ncmsry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing	26	nmod	_	_	O
+37	reorganizării	reorganizare	NOUN	Ncfsoy	Case=Dat,Gen|Definite=Def|Gender=Fem|Number=Sing	36	nmod	_	_	O
+38	instituției	instituție	NOUN	Ncfsoy	Case=Dat,Gen|Definite=Def|Gender=Fem|Number=Sing	37	nmod	_	_	O
+39	publice	public	ADJ	Afpfson	Case=Dat,Gen|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	38	amod	_	SpaceAfter=No	O
+40	.	.	PUNCT	PERIOD	_	7	punct	_	SpacesAfter=\r\n	O
+
+# sent_id = 29
+# text = PRIM-MINISTRU LUDOVIC ORBAN Contrasemnează: Viceprim-ministru, Raluca Turcan Ministrul sănătății, Victor Sebastian Costache Ministrul muncii și protecției sociale, Victoria Violeta Alexandru Ministrul afacerilor externe, Bogdan Lucian Aurescu p.
+1	PRIM-MINISTRU	PRIM-MINISTRU	PROPN	Np	_	4	nsubj	_	SpacesAfter=\r\n	O
+2	LUDOVIC	Ludovic	PROPN	Np	_	1	flat	_	_	B-PER
+3	ORBAN	ORBAN	PROPN	Np	_	1	flat	_	SpacesAfter=\r\n	I-PER
+4	Contrasemnează	Contrasemna	VERB	Vmip3	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No	O
+5	:	:	PUNCT	COLON	_	6	punct	_	SpacesAfter=\r\n	O
+6	Viceprim-ministru	Viceprim-ministru	PROPN	Np	_	4	obj	_	SpaceAfter=No	O
+7	,	,	PUNCT	COMMA	_	8	punct	_	SpacesAfter=\r\n	O
+8	Raluca	Raluca	PROPN	Np	_	6	conj	_	_	B-PER
+9	Turcan	Turcan	PROPN	Np	_	8	flat	_	SpacesAfter=\r\n	I-PER
+10	Ministrul	ministru	NOUN	Ncmsry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing	6	conj	_	_	O
+11	sănătății	sănătate	NOUN	Ncfsoy	Case=Dat,Gen|Definite=Def|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No	O
+12	,	,	PUNCT	COMMA	_	13	punct	_	SpacesAfter=\r\n	O
+13	Victor	Victor	PROPN	Np	_	10	nmod	_	_	B-PER
+14	Sebastian	Sebastian	PROPN	Np	_	13	flat	_	_	I-PER
+15	Costache	Costache	PROPN	Np	_	13	flat	_	SpacesAfter=\r\n	I-PER
+16	Ministrul	ministru	NOUN	Ncmsry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing	10	nmod	_	_	O
+17	muncii	muncă	NOUN	Ncfsoy	Case=Dat,Gen|Definite=Def|Gender=Fem|Number=Sing	16	nmod	_	_	O
+18	și	și	CCONJ	Crssp	Polarity=Pos	19	cc	_	_	O
+19	protecției	protecție	NOUN	Ncfsoy	Case=Dat,Gen|Definite=Def|Gender=Fem|Number=Sing	17	conj	_	_	O
+20	sociale	social	ADJ	Afpfson	Case=Dat,Gen|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	SpaceAfter=No	O
+21	,	,	PUNCT	COMMA	_	22	punct	_	SpacesAfter=\r\n	O
+22	Victoria	victoria	NOUN	Ncfsry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing	16	conj	_	_	B-PER
+23	Violeta	Violeta	PROPN	Np	_	22	nmod	_	_	I-PER
+24	Alexandru	Alexandru	PROPN	Np	_	23	flat	_	SpacesAfter=\r\n	I-PER
+25	Ministrul	ministru	NOUN	Ncmsry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing	16	nmod	_	_	O
+26	afacerilor	afacere	NOUN	Ncfpoy	Case=Dat,Gen|Definite=Def|Gender=Fem|Number=Plur	25	nmod	_	_	O
+27	externe	extern	ADJ	Afpfp-n	Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	26	amod	_	SpaceAfter=No	O
+28	,	,	PUNCT	COMMA	_	29	punct	_	SpacesAfter=\r\n	O
+29	Bogdan	Bogdan	PROPN	Np	_	25	appos	_	_	B-PER
+30	Lucian	Lucian	PROPN	Np	_	29	flat	_	_	I-PER
+31	Aurescu	Aurescu	PROPN	Np	_	29	flat	_	SpacesAfter=\r\n	I-PER
+32	p	p	NOUN	Ncm--n	Definite=Ind|Gender=Masc	29	flat	_	SpaceAfter=No	O
+33	.	.	PUNCT	PERIOD	_	4	punct	_	_	O
+
+# sent_id = 30
+# text = Ministrul finanțelor publice, Sebastian Ioan Burduja, secretar de stat
+1	Ministrul	ministru	NOUN	Ncmsry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	_	O
+2	finanțelor	finanțe	NOUN	Ncfpoy	Case=Dat,Gen|Definite=Def|Gender=Fem|Number=Plur	1	nmod	_	_	O
+3	publice	public	ADJ	Afpfp-n	Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	2	amod	_	SpaceAfter=No	O
+4	,	,	PUNCT	COMMA	_	5	punct	_	SpacesAfter=\r\n	O
+5	Sebastian	Sebastian	PROPN	Np	_	1	appos	_	_	B-PER
+6	Ioan	Ioan	PROPN	Np	_	5	flat	_	_	I-PER
+7	Burduja	Burduja	PROPN	Np	_	5	flat	_	SpaceAfter=No	I-PER
+8	,	,	PUNCT	COMMA	_	9	punct	_	SpacesAfter=\r\n	O
+9	secretar	secretar	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	5	appos	_	_	O
+10	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	11	case	_	_	O
+11	stat	stat	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	9	nmod	_	SpacesAfter=\r\n\r\n	O
+
+# newpar
+# sent_id = 31
+# text = București, 16 ianuarie 2020.
+1	București	București	PROPN	Np	_	0	root	_	SpaceAfter=No	B-LOC
+2	,	,	PUNCT	COMMA	_	4	punct	_	_	O
+3	16	16	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	4	nummod	_	_	B-TIME
+4	ianuarie	ianuarie	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	1	appos	_	_	I-TIME
+5	2020	2020	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	4	nummod	_	SpaceAfter=No	I-TIME
+6	.	.	PUNCT	PERIOD	_	1	punct	_	SpacesAfter=\r\n	O
+
+# sent_id = 32
+# text = Nr. 21. ANEXĂ^1)
+1	Nr.	Nr.	NOUN	Yn	Abbr=Yes	0	root	_	_	O
+2	21	21	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	1	nummod	_	SpaceAfter=No	O
+3	.	.	PUNCT	PERIOD	_	1	punct	_	SpacesAfter=\r\n	O
+4	ANEXĂ^1	ANEXĂ^1	PROPN	Np	_	1	nmod	_	SpaceAfter=No	O
+5	)	)	PUNCT	RPAR	_	1	punct	_	SpacesAfter=\r\n\r\n	O
+
+# newpar
+# sent_id = 33
+# text = (Anexa nr. 1 la Hotărârea Guvernului nr. 144 / 2010) ^1) Anexa este reprodusă în facsimil.
+1	(	(	PUNCT	LPAR	_	2	punct	_	SpaceAfter=No	O
+2	Anexa	anexă	NOUN	Ncfsry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing	17	parataxis	_	_	O
+3	nr.	nr.	NOUN	Yn	Abbr=Yes	2	nmod	_	_	O
+4	1	1	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	3	nummod	_	_	O
+5	la	la	ADP	Spsa	AdpType=Prep|Case=Acc	6	case	_	_	O
+6	Hotărârea	hotărâre	NOUN	Ncfsry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing	2	nmod	_	_	B-LAW
+7	Guvernului	guvern	NOUN	Ncmsoy	Case=Dat,Gen|Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	_	B-ORG
+8	nr.	nr.	NOUN	Yn	Abbr=Yes	6	nmod	_	_	B-LAW
+9	144	144	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	8	nummod	_	_	I-LAW
+10	/	/	SYM	SLASH	AdpType=Prep	8	punct	_	_	I-LAW
+11	2010	2010	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	8	nummod	_	SpaceAfter=No	B-TIME
+12	)	)	PUNCT	RPAR	_	8	punct	_	SpacesAfter=\r\n	O
+13	^1	^1	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	8	nummod	_	SpaceAfter=No	O
+14	)	)	PUNCT	RPAR	_	2	punct	_	_	O
+15	Anexa	anexă	NOUN	Ncfsry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing	17	nsubj:pass	_	_	O
+16	este	fi	AUX	Vaip3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux:pass	_	_	O
+17	reprodusă	reproduce	VERB	Vmp--sf	Gender=Fem|Number=Sing|VerbForm=Part	0	root	_	_	O
+18	în	în	ADP	Spsa	AdpType=Prep|Case=Acc	19	case	_	_	O
+19	facsimil	facsimil	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	17	nmod:pmod	_	SpaceAfter=No	O
+20	.	.	PUNCT	PERIOD	_	17	punct	_	SpacesAfter=\r\n	O
+
+# sent_id = 34
+# text = STRUCTURA ORGANIZATORICĂa Ministerului Sănătății ----
+1	STRUCTURA	structură	NOUN	Ncfsry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	_	O
+2	ORGANIZATORICĂa	ORGANIZATORICĂa	PROPN	Np	_	1	nmod	_	_	O
+3	Ministerului	minister	NOUN	Ncmsoy	Case=Dat,Gen|Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	_	B-ORG
+4	Sănătății	sănătate	NOUN	Ncfsoy	Case=Dat,Gen|Definite=Def|Gender=Fem|Number=Sing	3	nmod	_	SpacesAfter=\r\n	I-ORG
+5	-	-	PUNCT	DASH	_	2	punct	_	SpaceAfter=No	O
+6	-	-	PUNCT	DASH	_	2	punct	_	SpaceAfter=No	O
+7	--	--	PUNCT	COMMA	_	2	punct	_	SpaceAfter=No	O
+
+
