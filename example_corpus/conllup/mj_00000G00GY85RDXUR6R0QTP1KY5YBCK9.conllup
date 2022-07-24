@@ -1,0 +1,722 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC RELATE:NE
+# newdoc
+# newpar
+# sent_id = 1
+# text = ORDIN nr. 191 din 23 septembrie 2019 privind aprobarea prețurilor reglementate pentru activitatea de furnizare a gazelor naturale în regim reglementat realizată de Societatea PREMIER ENERGY - S.R.L. în calitate de operator desemnat să preia operarea sistemului de distribuție a gazelor naturale din localitatea Zimnicea, aparținătoare municipiului Zimnicea, județul Teleorman Publicat în MONITORUL OFICIAL nr. 778 din 25 septembrie 2019
+1	ORDIN	ordin	ADP	Spsa	AdpType=Prep|Case=Acc	2	case	_	SpacesBefore=\r\n	B-LAW
+2	nr.	nr.	NOUN	Yn	Abbr=Yes	0	root	_	_	I-LAW
+3	191	191	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	2	nummod	_	_	I-LAW
+4	din	din	ADP	Spsa	AdpType=Prep|Case=Acc	6	case	_	_	I-LAW
+5	23	23	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	6	nummod	_	_	I-LAW
+6	septembrie	septembrie	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	_	I-LAW
+7	2019	2019	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	6	nummod	_	SpacesAfter=\r\n	I-LAW
+8	privind	privind	ADP	Spsa	AdpType=Prep|Case=Acc	9	case	_	_	O
+9	aprobarea	aprobare	NOUN	Ncfsry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing	2	nmod	_	_	O
+10	prețurilor	preț	NOUN	Ncfpoy	Case=Dat,Gen|Definite=Def|Gender=Fem|Number=Plur	9	nmod	_	_	O
+11	reglementate	reglementa	VERB	Vmp--pf	Gender=Fem|Number=Plur|VerbForm=Part	10	acl	_	_	O
+12	pentru	pentru	ADP	Spsa	AdpType=Prep|Case=Acc	13	case	_	_	O
+13	activitatea	activitate	NOUN	Ncfsry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing	11	obl	_	_	O
+14	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	15	case	_	_	O
+15	furnizare	furnizare	NOUN	Ncfsrn	Case=Acc,Nom|Definite=Ind|Gender=Fem|Number=Sing	13	nmod	_	_	O
+16	a	al	DET	Tsfs	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	17	det	_	_	O
+17	gazelor	gaz	NOUN	Ncfpoy	Case=Dat,Gen|Definite=Def|Gender=Fem|Number=Plur	15	nmod	_	_	O
+18	naturale	natural	ADJ	Afpfp-n	Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	17	amod	_	_	O
+19	în	în	ADP	Spsa	AdpType=Prep|Case=Acc	20	case	_	_	O
+20	regim	regim	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	17	nmod	_	_	O
+21	reglementat	reglementat	ADJ	Afpms-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_	O
+22	realizată	realiza	VERB	Vmp--sf	Gender=Fem|Number=Sing|VerbForm=Part	13	acl	_	_	O
+23	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	24	case	_	_	O
+24	Societatea	societate	NOUN	Ncfsry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing	22	nmod:agent	_	_	O
+25	PREMIER	premier	PROPN	Np	_	24	nmod	_	_	B-ORG
+26	ENERGY	Energy	PROPN	Np	_	25	flat	_	_	I-ORG
+27	-	-	PUNCT	DASH	_	28	punct	_	_	I-ORG
+28	S.R.L.	S.R.L.	NOUN	Yn	Abbr=Yes	24	nmod	_	_	I-ORG
+29	în	în	ADP	Spsa	AdpType=Prep|Case=Acc	32	case	_	_	O
+30	calitate	calitate	NOUN	Ncfsrn	Case=Acc,Nom|Definite=Ind|Gender=Fem|Number=Sing	29	fixed	_	_	O
+31	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	29	fixed	_	_	O
+32	operator	operator	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	22	obl	_	_	O
+33	desemnat	desemnat	VERB	Vmp--sm	Gender=Masc|Number=Sing|VerbForm=Part	32	acl	_	_	O
+34	să	să	PART	Qs	Mood=Sub	35	mark	_	_	O
+35	preia	prelua	VERB	Vmsp3	Mood=Sub|Person=3|Tense=Pres|VerbForm=Fin	33	xcomp	_	_	O
+36	operarea	operare	NOUN	Ncfsry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing	35	obj	_	_	O
+37	sistemului	sistem	NOUN	Ncmsoy	Case=Dat,Gen|Definite=Def|Gender=Masc|Number=Sing	36	nmod	_	_	O
+38	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	39	case	_	_	O
+39	distribuție	distribuție	NOUN	Ncfsrn	Case=Acc,Nom|Definite=Ind|Gender=Fem|Number=Sing	37	nmod	_	_	O
+40	a	al	DET	Tsfs	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	41	det	_	_	O
+41	gazelor	gaz	NOUN	Ncfpoy	Case=Dat,Gen|Definite=Def|Gender=Fem|Number=Plur	39	nmod	_	_	O
+42	naturale	natural	ADJ	Afpfp-n	Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	41	amod	_	_	O
+43	din	din	ADP	Spsa	AdpType=Prep|Case=Acc	44	case	_	_	O
+44	localitatea	localitate	NOUN	Ncfsry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing	41	nmod	_	_	O
+45	Zimnicea	Zimnicea	PROPN	Np	_	44	nmod	_	SpaceAfter=No	B-LOC
+46	,	,	PUNCT	COMMA	_	47	punct	_	_	O
+47	aparținătoare	aparținător	ADJ	Afpf--n	Definite=Ind|Degree=Pos|Gender=Fem	44	amod	_	_	O
+48	municipiului	municipiu	NOUN	Ncmsoy	Case=Dat,Gen|Definite=Def|Gender=Masc|Number=Sing	47	iobj	_	_	O
+49	Zimnicea	Zimnicea	PROPN	Np	_	48	nmod	_	SpaceAfter=No	B-LOC
+50	,	,	PUNCT	COMMA	_	47	punct	_	_	O
+51	județul	județ	NOUN	Ncmsry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing	53	nsubj	_	_	O
+52	Teleorman	Teleorman	PROPN	Np	_	51	nmod	_	SpacesAfter=\r\n	B-LOC
+53	Publicat	publica	VERB	Vmp--sm	Gender=Masc|Number=Sing|VerbForm=Part	44	acl	_	_	O
+54	în	în	ADP	Spsa	AdpType=Prep|Case=Acc	55	case	_	SpacesAfter= \r\n\t\t\t\r\n	O
+55	MONITORUL	monitor	NOUN	Ncmsry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing	53	obl	_	_	B-ORG
+56	OFICIAL	oficial	PROPN	Np	_	55	nmod	_	_	I-ORG
+57	nr.	nr.	NOUN	Yn	Abbr=Yes	55	nmod	_	_	O
+58	778	778	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	57	nummod	_	_	O
+59	din	din	ADP	Spsa	AdpType=Prep|Case=Acc	61	case	_	_	O
+60	25	25	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	61	nummod	_	_	B-TIME
+61	septembrie	septembrie	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	57	nmod	_	_	I-TIME
+62	2019	2019	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	53	nummod	_	SpacesAfter=\r\n\r\n	I-TIME
+
+# newpar
+# sent_id = 2
+# text = – prevederile art. 104 alin. (10), art. 138 alin. (1) lit. g), art. 174 alin. (7^1), art. 178 alin. (2) lit. a) și ale art. 179 alin. (2) lit. b), alin. (4) și (6) din Legea energiei electrice și a gazelor naturale nr. 123 / 2012, cu modificările și completările ulterioare;
+1	–	–	PUNCT	DASH	_	2	punct	_	SpacesAfter= \r\n	O
+2	prevederile	prevedere	NOUN	Ncfpry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Plur	0	root	_	_	O
+3	art.	art.	NOUN	Yn	Abbr=Yes	2	nmod	_	_	O
+4	104	104	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	3	nummod	_	_	O
+5	alin.	alin.	NOUN	Yn	Abbr=Yes	3	nmod	_	_	O
+6	(	(	PUNCT	LPAR	_	7	punct	_	SpaceAfter=No	O
+7	10	10	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	5	nummod	_	SpaceAfter=No	O
+8	)	)	PUNCT	RPAR	_	7	punct	_	SpaceAfter=No	O
+9	,	,	PUNCT	COMMA	_	2	punct	_	_	O
+10	art.	art.	NOUN	Yn	Abbr=Yes	2	nmod	_	_	O
+11	138	138	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	10	nummod	_	_	O
+12	alin.	alin.	NOUN	Yn	Abbr=Yes	10	nmod	_	_	O
+13	(	(	PUNCT	LPAR	_	14	punct	_	SpaceAfter=No	O
+14	1	1	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	12	nummod	_	SpaceAfter=No	O
+15	)	)	PUNCT	RPAR	_	14	punct	_	_	O
+16	lit.	lit.	NOUN	Yn	Abbr=Yes	12	nmod	_	_	O
+17	g	g	NOUN	Ncm--n	Definite=Ind|Gender=Masc	16	nmod	_	SpaceAfter=No	O
+18	)	)	PUNCT	RPAR	_	2	punct	_	SpaceAfter=No	O
+19	,	,	PUNCT	COMMA	_	2	punct	_	_	O
+20	art.	art.	NOUN	Yn	Abbr=Yes	2	nmod	_	_	O
+21	174	174	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	20	nummod	_	_	O
+22	alin.	alin.	NOUN	Yn	Abbr=Yes	20	nmod	_	_	O
+23	(	(	PUNCT	LPAR	_	24	punct	_	SpaceAfter=No	O
+24	7^1	7^1	NOUN	Yn	Abbr=Yes	22	nmod	_	SpaceAfter=No	O
+25	)	)	PUNCT	RPAR	_	24	punct	_	SpaceAfter=No	O
+26	,	,	PUNCT	COMMA	_	2	punct	_	_	O
+27	art.	art.	NOUN	Yn	Abbr=Yes	2	nmod	_	_	O
+28	178	178	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	27	nummod	_	_	O
+29	alin.	alin.	NOUN	Yn	Abbr=Yes	27	nmod	_	_	O
+30	(	(	PUNCT	LPAR	_	31	punct	_	SpaceAfter=No	O
+31	2	2	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	29	nummod	_	SpaceAfter=No	O
+32	)	)	PUNCT	RPAR	_	31	punct	_	_	O
+33	lit.	lit.	NOUN	Yn	Abbr=Yes	29	nmod	_	_	O
+34	a	al	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	33	nmod	_	SpaceAfter=No	O
+35	)	)	PUNCT	RPAR	_	2	punct	_	_	O
+36	și	și	CCONJ	Crssp	Polarity=Pos	38	cc	_	_	O
+37	ale	al	DET	Tsfp	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	38	det	_	_	O
+38	art.	art.	NOUN	Yn	Abbr=Yes	2	conj	_	_	O
+39	179	179	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	38	nummod	_	_	O
+40	alin.	alin.	NOUN	Yn	Abbr=Yes	38	nmod	_	_	O
+41	(	(	PUNCT	LPAR	_	42	punct	_	SpaceAfter=No	O
+42	2	2	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	40	nummod	_	SpaceAfter=No	O
+43	)	)	PUNCT	RPAR	_	42	punct	_	_	O
+44	lit.	lit.	NOUN	Yn	Abbr=Yes	40	nmod	_	_	O
+45	b	b	NOUN	Ncm--n	Definite=Ind|Gender=Masc	44	nmod	_	SpaceAfter=No	O
+46	)	)	PUNCT	RPAR	_	2	punct	_	SpaceAfter=No	O
+47	,	,	PUNCT	COMMA	_	2	punct	_	_	O
+48	alin.	alin.	NOUN	Yn	Abbr=Yes	2	nmod	_	_	O
+49	(	(	PUNCT	LPAR	_	50	punct	_	SpaceAfter=No	O
+50	4	4	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	48	nummod	_	SpaceAfter=No	O
+51	)	)	PUNCT	RPAR	_	50	punct	_	_	O
+52	și	și	CCONJ	Crssp	Polarity=Pos	57	cc	_	_	O
+53	(	(	PUNCT	LPAR	_	54	punct	_	SpaceAfter=No	O
+54	6	6	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	57	parataxis	_	SpaceAfter=No	O
+55	)	)	PUNCT	RPAR	_	54	punct	_	_	O
+56	din	din	ADP	Spsa	AdpType=Prep|Case=Acc	57	case	_	_	O
+57	Legea	lege	NOUN	Ncfsry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing	2	conj	_	_	B-LAW
+58	energiei	energie	NOUN	Ncfsoy	Case=Dat,Gen|Definite=Def|Gender=Fem|Number=Sing	57	nmod	_	_	I-LAW
+59	electrice	electric	ADJ	Afpfson	Case=Dat,Gen|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	58	amod	_	_	I-LAW
+60	și	și	CCONJ	Crssp	Polarity=Pos	62	cc	_	_	I-LAW
+61	a	al	DET	Tsfs	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	62	det	_	_	I-LAW
+62	gazelor	gaz	NOUN	Ncfpoy	Case=Dat,Gen|Definite=Def|Gender=Fem|Number=Plur	58	conj	_	_	I-LAW
+63	naturale	natural	ADJ	Afpfp-n	Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	62	amod	_	_	I-LAW
+64	nr.	nr.	NOUN	Yn	Abbr=Yes	57	nmod	_	_	I-LAW
+65	123	123	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	64	nummod	_	_	I-LAW
+66	/	/	SYM	SLASH	AdpType=Prep	64	punct	_	_	I-LAW
+67	2012	2012	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	64	nummod	_	SpaceAfter=No	I-LAW
+68	,	,	PUNCT	COMMA	_	70	punct	_	_	O
+69	cu	cu	ADP	Spsa	AdpType=Prep|Case=Acc	70	case	_	_	O
+70	modificările	modificare	NOUN	Ncfpry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Plur	57	nmod	_	_	O
+71	și	și	CCONJ	Crssp	Polarity=Pos	72	cc	_	_	O
+72	completările	completare	NOUN	Ncfpry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Plur	70	conj	_	_	O
+73	ulterioare	ulterior	ADJ	Afpfp-n	Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	72	amod	_	SpaceAfter=No	O
+74	;	;	PUNCT	SCOLON	AdpType=Prep	57	punct	_	SpacesAfter=\r\n 	O
+
+# sent_id = 3
+# text = ... – prevederile art. 13 din Procedura privind desemnarea unui operator de distribuție a gazelor naturale pentru preluarea operării unui sistem de distribuție a gazelor naturale, aprobată prin Ordinul președintelui Autorității Naționale de Reglementare în Domeniul Energiei nr. 2 / 2017, cu modificările și completările ulterioare;
+1	...	...	PUNCT	HELLIP	_	3	punct	_	SpacesAfter= \r\n	O
+2	–	–	PUNCT	DASH	_	3	punct	_	SpacesAfter= \r\n	O
+3	prevederile	prevedere	NOUN	Ncfpry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Plur	0	root	_	_	O
+4	art.	art.	NOUN	Yn	Abbr=Yes	3	nmod	_	_	O
+5	13	13	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	4	nummod	_	_	O
+6	din	din	ADP	Spsa	AdpType=Prep|Case=Acc	7	case	_	_	O
+7	Procedura	procedură	NOUN	Ncfsry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing	3	nmod	_	_	O
+8	privind	privind	ADP	Spsa	AdpType=Prep|Case=Acc	9	case	_	_	O
+9	desemnarea	desemnare	NOUN	Ncfsry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing	7	nmod	_	_	O
+10	unui	un	DET	Timso	Case=Dat,Gen|Gender=Masc|Number=Sing|PronType=Ind	11	det	_	_	O
+11	operator	operator	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	9	nmod	_	_	O
+12	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	13	case	_	_	O
+13	distribuție	distribuție	NOUN	Ncfsrn	Case=Acc,Nom|Definite=Ind|Gender=Fem|Number=Sing	11	nmod	_	_	O
+14	a	al	DET	Tsfs	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	15	det	_	_	O
+15	gazelor	gaz	NOUN	Ncfpoy	Case=Dat,Gen|Definite=Def|Gender=Fem|Number=Plur	13	nmod	_	_	O
+16	naturale	natural	ADJ	Afpfp-n	Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	15	amod	_	_	O
+17	pentru	pentru	ADP	Spsa	AdpType=Prep|Case=Acc	18	case	_	_	O
+18	preluarea	preluare	NOUN	Ncfsry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing	15	nmod	_	_	O
+19	operării	operare	NOUN	Ncfsoy	Case=Dat,Gen|Definite=Def|Gender=Fem|Number=Sing	18	nmod	_	_	O
+20	unui	un	DET	Timso	Case=Dat,Gen|Gender=Masc|Number=Sing|PronType=Ind	21	det	_	_	O
+21	sistem	sistem	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	19	nmod	_	_	O
+22	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	23	case	_	_	O
+23	distribuție	distribuție	NOUN	Ncfsrn	Case=Acc,Nom|Definite=Ind|Gender=Fem|Number=Sing	21	nmod	_	_	O
+24	a	al	DET	Tsfs	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	25	det	_	_	O
+25	gazelor	gaz	NOUN	Ncfpoy	Case=Dat,Gen|Definite=Def|Gender=Fem|Number=Plur	23	nmod	_	_	O
+26	naturale	natural	ADJ	Afpfp-n	Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	25	amod	_	SpaceAfter=No	O
+27	,	,	PUNCT	COMMA	_	28	punct	_	_	O
+28	aprobată	aproba	VERB	Vmp--sf	Gender=Fem|Number=Sing|VerbForm=Part	25	acl	_	_	O
+29	prin	prin	ADP	Spsa	AdpType=Prep|Case=Acc	30	case	_	_	O
+30	Ordinul	ordin	NOUN	Ncmsry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing	28	obl	_	_	B-LAW
+31	președintelui	președinte	NOUN	Ncmsoy	Case=Dat,Gen|Definite=Def|Gender=Masc|Number=Sing	30	nmod	_	_	I-LAW
+32	Autorității	autoritate	NOUN	Ncfsoy	Case=Dat,Gen|Definite=Def|Gender=Fem|Number=Sing	31	nmod	_	_	I-LAW
+33	Naționale	național	ADJ	Afpfson	Case=Dat,Gen|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	32	amod	_	_	I-LAW
+34	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	35	case	_	_	I-LAW
+35	Reglementare	reglementare	NOUN	Ncfsrn	Case=Acc,Nom|Definite=Ind|Gender=Fem|Number=Sing	32	nmod	_	_	I-LAW
+36	în	în	ADP	Spsa	AdpType=Prep|Case=Acc	37	case	_	_	I-LAW
+37	Domeniul	domeniu	NOUN	Ncmsry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing	32	nmod	_	_	I-LAW
+38	Energiei	energie	PROPN	Npfsoy	Case=Dat,Gen|Definite=Def|Gender=Fem|Number=Sing	37	nmod	_	_	I-LAW
+39	nr.	nr.	NOUN	Yn	Abbr=Yes	37	nmod	_	_	I-LAW
+40	2	2	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	39	nummod	_	_	I-LAW
+41	/	/	SYM	SLASH	AdpType=Prep	39	punct	_	_	I-LAW
+42	2017	2017	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	39	nummod	_	SpaceAfter=No	I-LAW
+43	,	,	PUNCT	COMMA	_	45	punct	_	_	O
+44	cu	cu	ADP	Spsa	AdpType=Prep|Case=Acc	45	case	_	_	O
+45	modificările	modificare	NOUN	Ncfpry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Plur	28	obl	_	_	O
+46	și	și	CCONJ	Crssp	Polarity=Pos	47	cc	_	_	O
+47	completările	completare	NOUN	Ncfpry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Plur	45	conj	_	_	O
+48	ulterioare	ulterior	ADJ	Afpfp-n	Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	47	amod	_	SpaceAfter=No	O
+49	;	;	PUNCT	SCOLON	AdpType=Prep	3	punct	_	SpacesAfter=\r\n 	O
+
+# sent_id = 4
+# text = ... – prevederile art. 15 din Metodologia pentru stabilirea venitului unitar aferent activității de furnizare reglementată, desfășurată într-un an de reglementare, și de aprobare a prețurilor reglementate în sectorul gazelor naturale, începând cu anul 2019, aprobată prin Ordinul președintelui Autorității Naționale de Reglementare în Domeniul Energiei nr. 219 / 2018, cu modificările și completările ulterioare, ...
+1	...	...	PUNCT	HELLIP	_	3	punct	_	SpacesAfter= \r\n	O
+2	–	–	PUNCT	DASH	_	3	punct	_	SpacesAfter= \r\n	O
+3	prevederile	prevedere	NOUN	Ncfpry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Plur	0	root	_	_	O
+4	art.	art.	NOUN	Yn	Abbr=Yes	3	nmod	_	_	O
+5	15	15	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	4	nummod	_	_	O
+6	din	din	ADP	Spsa	AdpType=Prep|Case=Acc	7	case	_	_	O
+7	Metodologia	Metodologie	NOUN	Ncfsry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing	4	nmod	_	_	O
+8	pentru	pentru	ADP	Spsa	AdpType=Prep|Case=Acc	9	case	_	_	O
+9	stabilirea	stabilire	NOUN	Ncfsry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing	7	nmod	_	_	O
+10	venitului	venit	NOUN	Ncmsoy	Case=Dat,Gen|Definite=Def|Gender=Masc|Number=Sing	9	nmod	_	_	O
+11	unitar	unitar	ADJ	Afpms-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_	O
+12	aferent	aferent	ADJ	Afpms-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_	O
+13	activității	activitate	NOUN	Ncfsoy	Case=Dat,Gen|Definite=Def|Gender=Fem|Number=Sing	12	iobj	_	_	O
+14	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	15	case	_	_	O
+15	furnizare	furnizare	NOUN	Ncfsrn	Case=Acc,Nom|Definite=Ind|Gender=Fem|Number=Sing	13	nmod	_	_	O
+16	reglementată	reglementat	ADJ	Afpfsrn	Case=Acc,Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	SpaceAfter=No	O
+17	,	,	PUNCT	COMMA	_	18	punct	_	_	O
+18	desfășurată	desfășura	VERB	Vmp--sf	Gender=Fem|Number=Sing|VerbForm=Part	13	acl	_	_	O
+19	într-	întru	ADP	Spsay	AdpType=Prep|Case=Acc|Variant=Short	21	case	_	SpaceAfter=No	O
+20	un	un	DET	Timsr	Case=Acc,Nom|Gender=Masc|Number=Sing|PronType=Ind	21	det	_	_	O
+21	an	an	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	18	obl	_	_	O
+22	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	23	case	_	_	O
+23	reglementare	reglementare	NOUN	Ncfsrn	Case=Acc,Nom|Definite=Ind|Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No	O
+24	,	,	PUNCT	COMMA	_	27	punct	_	_	O
+25	și	și	CCONJ	Crssp	Polarity=Pos	27	cc	_	_	O
+26	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	27	case	_	_	O
+27	aprobare	aprobare	NOUN	Ncfsrn	Case=Acc,Nom|Definite=Ind|Gender=Fem|Number=Sing	18	conj	_	_	O
+28	a	al	DET	Tsfs	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	29	det	_	_	O
+29	prețurilor	preț	NOUN	Ncfpoy	Case=Dat,Gen|Definite=Def|Gender=Fem|Number=Plur	27	nmod	_	_	O
+30	reglementate	reglementa	VERB	Vmp--pf	Gender=Fem|Number=Plur|VerbForm=Part	29	acl	_	_	O
+31	în	în	ADP	Spsa	AdpType=Prep|Case=Acc	32	case	_	_	O
+32	sectorul	sector	NOUN	Ncmsry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing	30	obl	_	_	O
+33	gazelor	gaz	NOUN	Ncfpoy	Case=Dat,Gen|Definite=Def|Gender=Fem|Number=Plur	32	nmod	_	_	O
+34	naturale	natural	ADJ	Afpfp-n	Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	33	amod	_	SpaceAfter=No	O
+35	,	,	PUNCT	COMMA	_	36	punct	_	_	O
+36	începând	începe	VERB	Vmg	VerbForm=Ger	29	advcl	_	_	O
+37	cu	cu	ADP	Spsa	AdpType=Prep|Case=Acc	38	case	_	_	O
+38	anul	an	NOUN	Ncmsry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing	36	obl	_	_	O
+39	2019	2019	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	38	nummod	_	SpaceAfter=No	B-TIME
+40	,	,	PUNCT	COMMA	_	41	punct	_	_	O
+41	aprobată	aproba	VERB	Vmp--sf	Gender=Fem|Number=Sing|VerbForm=Part	38	acl	_	_	O
+42	prin	prin	ADP	Spsa	AdpType=Prep|Case=Acc	43	case	_	_	O
+43	Ordinul	ordin	NOUN	Ncmsry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing	41	obl	_	_	B-LAW
+44	președintelui	președinte	NOUN	Ncmsoy	Case=Dat,Gen|Definite=Def|Gender=Masc|Number=Sing	43	nmod	_	_	I-LAW
+45	Autorității	autoritate	NOUN	Ncfsoy	Case=Dat,Gen|Definite=Def|Gender=Fem|Number=Sing	44	nmod	_	_	I-LAW
+46	Naționale	național	ADJ	Afpfson	Case=Dat,Gen|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	45	amod	_	_	I-LAW
+47	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	48	case	_	_	I-LAW
+48	Reglementare	reglementare	NOUN	Ncfsrn	Case=Acc,Nom|Definite=Ind|Gender=Fem|Number=Sing	45	nmod	_	_	I-LAW
+49	în	în	ADP	Spsa	AdpType=Prep|Case=Acc	50	case	_	_	I-LAW
+50	Domeniul	domeniu	NOUN	Ncmsry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing	45	nmod	_	_	I-LAW
+51	Energiei	energie	PROPN	Npfsoy	Case=Dat,Gen|Definite=Def|Gender=Fem|Number=Sing	50	nmod	_	_	I-LAW
+52	nr.	nr.	NOUN	Yn	Abbr=Yes	50	nmod	_	_	I-LAW
+53	219	219	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	52	nummod	_	_	I-LAW
+54	/	/	SYM	SLASH	AdpType=Prep	52	punct	_	_	I-LAW
+55	2018	2018	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	52	nummod	_	SpaceAfter=No	I-LAW
+56	,	,	PUNCT	COMMA	_	38	punct	_	_	O
+57	cu	cu	ADP	Spsa	AdpType=Prep|Case=Acc	58	case	_	_	O
+58	modificările	modificare	NOUN	Ncfpry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Plur	38	nmod	_	_	O
+59	și	și	CCONJ	Crssp	Polarity=Pos	60	cc	_	_	O
+60	completările	completare	NOUN	Ncfpry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Plur	58	conj	_	_	O
+61	ulterioare	ulterior	ADJ	Afpfp-n	Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	60	amod	_	SpaceAfter=No	O
+62	,	,	PUNCT	COMMA	_	36	punct	_	SpacesAfter=\r\n 	O
+63	...	...	PUNCT	HELLIP	_	3	punct	_	SpacesAfter= \r\n	O
+
+# sent_id = 5
+# text = în temeiul dispozițiilor art. 10 alin. (1) lit. a) și m) din Ordonanța de urgență a Guvernului nr. 33 / 2007 privind organizarea și funcționarea Autorității Naționale de Reglementare în Domeniul Energiei, aprobată cu modificări și completări prin Legea nr. 160 / 2012, cu modificările și completările ulterioare, președintele Autorității Naționale de Reglementare în Domeniul Energiei emite prezentul ordin.
+1	în	în	ADP	Spsa	AdpType=Prep|Case=Acc	2	case	_	_	O
+2	temeiul	temei	NOUN	Ncmsry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	_	O
+3	dispozițiilor	dispoziție	NOUN	Ncfpoy	Case=Dat,Gen|Definite=Def|Gender=Fem|Number=Plur	2	nmod	_	_	O
+4	art.	art.	NOUN	Yn	Abbr=Yes	3	nmod	_	_	O
+5	10	10	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	4	nummod	_	_	O
+6	alin.	alin.	NOUN	Yn	Abbr=Yes	4	nmod	_	_	O
+7	(	(	PUNCT	LPAR	_	8	punct	_	SpaceAfter=No	O
+8	1	1	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	6	nummod	_	SpaceAfter=No	O
+9	)	)	PUNCT	RPAR	_	8	punct	_	_	O
+10	lit.	lit.	NOUN	Yn	Abbr=Yes	6	nmod	_	_	O
+11	a	al	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No	O
+12	)	)	PUNCT	RPAR	_	14	punct	_	_	O
+13	și	și	CCONJ	Crssp	Polarity=Pos	14	cc	_	_	O
+14	m	m	NOUN	Ncm--n	Definite=Ind|Gender=Masc	6	conj	_	SpaceAfter=No	O
+15	)	)	PUNCT	RPAR	_	4	punct	_	_	O
+16	din	din	ADP	Spsa	AdpType=Prep|Case=Acc	17	case	_	_	O
+17	Ordonanța	ordonanță	NOUN	Ncfsry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing	3	nmod	_	_	B-LAW
+18	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	19	case	_	_	I-LAW
+19	urgență	urgență	NOUN	Ncfsrn	Case=Acc,Nom|Definite=Ind|Gender=Fem|Number=Sing	17	nmod	_	_	I-LAW
+20	a	al	DET	Tsfs	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	21	det	_	_	I-LAW
+21	Guvernului	guvern	NOUN	Ncmsoy	Case=Dat,Gen|Definite=Def|Gender=Masc|Number=Sing	19	nmod	_	_	I-LAW
+22	nr.	nr.	NOUN	Yn	Abbr=Yes	21	nmod	_	_	I-LAW
+23	33	33	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	22	nummod	_	_	I-LAW
+24	/	/	SYM	SLASH	AdpType=Prep	22	punct	_	_	I-LAW
+25	2007	2007	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	22	nummod	_	_	I-LAW
+26	privind	privind	ADP	Spsa	AdpType=Prep|Case=Acc	27	case	_	_	O
+27	organizarea	organizare	NOUN	Ncfsry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing	17	nmod	_	_	O
+28	și	și	CCONJ	Crssp	Polarity=Pos	29	cc	_	_	O
+29	funcționarea	funcționare	NOUN	Ncfsry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing	27	conj	_	_	O
+30	Autorității	autoritate	NOUN	Ncfsoy	Case=Dat,Gen|Definite=Def|Gender=Fem|Number=Sing	29	nmod	_	_	B-ORG
+31	Naționale	național	ADJ	Afpfson	Case=Dat,Gen|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	30	amod	_	_	I-ORG
+32	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	33	case	_	_	I-ORG
+33	Reglementare	reglementare	NOUN	Ncfsrn	Case=Acc,Nom|Definite=Ind|Gender=Fem|Number=Sing	30	nmod	_	_	I-ORG
+34	în	în	ADP	Spsa	AdpType=Prep|Case=Acc	35	case	_	_	I-ORG
+35	Domeniul	domeniu	NOUN	Ncmsry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing	27	nmod	_	_	I-ORG
+36	Energiei	energie	PROPN	Npfsoy	Case=Dat,Gen|Definite=Def|Gender=Fem|Number=Sing	35	nmod	_	SpaceAfter=No	I-ORG
+37	,	,	PUNCT	COMMA	_	38	punct	_	_	O
+38	aprobată	aproba	VERB	Vmp--sf	Gender=Fem|Number=Sing|VerbForm=Part	3	acl	_	_	O
+39	cu	cu	ADP	Spsa	AdpType=Prep|Case=Acc	40	case	_	_	O
+40	modificări	modificare	NOUN	Ncfp-n	Definite=Ind|Gender=Fem|Number=Plur	38	obl	_	_	O
+41	și	și	CCONJ	Crssp	Polarity=Pos	42	cc	_	_	O
+42	completări	completare	NOUN	Ncfp-n	Definite=Ind|Gender=Fem|Number=Plur	40	conj	_	_	O
+43	prin	prin	ADP	Spsa	AdpType=Prep|Case=Acc	44	case	_	_	O
+44	Legea	lege	NOUN	Ncfsry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing	38	obl	_	_	B-LAW
+45	nr.	nr.	NOUN	Yn	Abbr=Yes	44	nmod	_	_	I-LAW
+46	160	160	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	45	nummod	_	_	I-LAW
+47	/	/	SYM	SLASH	AdpType=Prep	44	punct	_	_	I-LAW
+48	2012	2012	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	44	nummod	_	SpaceAfter=No	I-LAW
+49	,	,	PUNCT	COMMA	_	51	punct	_	_	O
+50	cu	cu	ADP	Spsa	AdpType=Prep|Case=Acc	51	case	_	_	O
+51	modificările	modificare	NOUN	Ncfpry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Plur	44	nmod	_	_	O
+52	și	și	CCONJ	Crssp	Polarity=Pos	53	cc	_	_	O
+53	completările	completare	NOUN	Ncfpry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Plur	51	conj	_	_	O
+54	ulterioare	ulterior	ADJ	Afpfp-n	Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	53	amod	_	SpaceAfter=No	O
+55	,	,	PUNCT	COMMA	_	56	punct	_	SpacesAfter=\r\n	O
+56	președintele	președinte	NOUN	Ncmsry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing	51	conj	_	_	O
+57	Autorității	autoritate	NOUN	Ncfsoy	Case=Dat,Gen|Definite=Def|Gender=Fem|Number=Sing	56	nmod	_	_	B-ORG
+58	Naționale	național	ADJ	Afpfson	Case=Dat,Gen|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	57	amod	_	_	I-ORG
+59	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	60	case	_	_	I-ORG
+60	Reglementare	reglementare	NOUN	Ncfsrn	Case=Acc,Nom|Definite=Ind|Gender=Fem|Number=Sing	57	nmod	_	_	I-ORG
+61	în	în	ADP	Spsa	AdpType=Prep|Case=Acc	62	case	_	_	I-ORG
+62	Domeniul	domeniu	NOUN	Ncmsry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing	57	nmod	_	_	I-ORG
+63	Energiei	energie	PROPN	Np	_	62	nmod	_	_	I-ORG
+64	emite	emite	VERB	Vmip3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	51	conj	_	_	O
+65	prezentul	prezent	ADJ	Afpmsry	Case=Acc,Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	66	amod	_	_	O
+66	ordin	ordin	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	64	obj	_	SpaceAfter=No	O
+67	.	.	PUNCT	PERIOD	_	2	punct	_	SpacesAfter=\r\n	O
+
+# sent_id = 6
+# text = Articolul 1
+1	Articolul	articol	NOUN	Ncmsry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	_	O
+2	1	1	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	1	nummod	_	SpacesAfter=\r\n\r\n	O
+
+# newpar
+# sent_id = 7
+# text = (1) Se aprobă prețurile reglementate pentru activitatea de furnizare a gazelor naturale în regim reglementat realizată de Societatea PREMIER ENERGY - S.R.L. pentru clienții casnici din localitatea Zimnicea, județul Teleorman, care nu și-au exercitat dreptul de eligibilitate, conform anexei care face parte integrantă din prezentul ordin.
+1	(	(	PUNCT	LPAR	_	2	punct	_	SpaceAfter=No	O
+2	1	1	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	5	parataxis	_	SpaceAfter=No	O
+3	)	)	PUNCT	RPAR	_	2	punct	_	_	O
+4	Se	sine	PRON	Px3--a--------w	Case=Acc|Person=3|PronType=Prs|Reflex=Yes|Strength=Weak	5	expl:pass	_	_	O
+5	aprobă	aproba	VERB	Vmis3s	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_	O
+6	prețurile	preț	NOUN	Ncfpry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Plur	5	nsubj:pass	_	_	O
+7	reglementate	reglementa	VERB	Vmp--pf	Gender=Fem|Number=Plur|VerbForm=Part	6	acl	_	_	O
+8	pentru	pentru	ADP	Spsa	AdpType=Prep|Case=Acc	9	case	_	_	O
+9	activitatea	activitate	NOUN	Ncfsry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing	7	obl	_	_	O
+10	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	11	case	_	_	O
+11	furnizare	furnizare	NOUN	Ncfsrn	Case=Acc,Nom|Definite=Ind|Gender=Fem|Number=Sing	9	nmod	_	_	O
+12	a	al	DET	Tsfs	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	13	det	_	_	O
+13	gazelor	gaz	NOUN	Ncfpoy	Case=Dat,Gen|Definite=Def|Gender=Fem|Number=Plur	11	nmod	_	_	O
+14	naturale	natural	ADJ	Afpfp-n	Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	13	amod	_	_	O
+15	în	în	ADP	Spsa	AdpType=Prep|Case=Acc	16	case	_	_	O
+16	regim	regim	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	13	nmod	_	_	O
+17	reglementat	reglementat	ADJ	Afpms-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_	O
+18	realizată	realiza	VERB	Vmp--sf	Gender=Fem|Number=Sing|VerbForm=Part	9	acl	_	_	O
+19	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	20	case	_	_	O
+20	Societatea	societate	NOUN	Ncfsry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing	18	nmod:agent	_	_	B-ORG
+21	PREMIER	premier	PROPN	Np	_	20	nmod	_	_	I-ORG
+22	ENERGY	Energy	PROPN	Np	_	21	flat	_	_	I-ORG
+23	-	-	PUNCT	DASH	_	24	punct	_	_	I-ORG
+24	S.R.L.	S.R.L.	PROPN	Np	_	20	nmod	_	_	I-ORG
+25	pentru	pentru	ADP	Spsa	AdpType=Prep|Case=Acc	26	case	_	_	O
+26	clienții	client	NOUN	Ncmpry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Plur	18	obl	_	_	O
+27	casnici	casnic	ADJ	Afpmp-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur	26	amod	_	_	O
+28	din	din	ADP	Spsa	AdpType=Prep|Case=Acc	29	case	_	_	O
+29	localitatea	localitate	NOUN	Ncfsry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing	26	nmod	_	_	O
+30	Zimnicea	Zimnicea	PROPN	Np	_	29	nmod	_	SpaceAfter=No	B-LOC
+31	,	,	PUNCT	COMMA	_	32	punct	_	_	O
+32	județul	județ	NOUN	Ncmsry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing	29	appos	_	_	O
+33	Teleorman	Teleorman	PROPN	Np	_	32	nmod	_	SpaceAfter=No	B-LOC
+34	,	,	PUNCT	COMMA	_	39	punct	_	_	O
+35	care	care	PRON	Pw3--r	Case=Acc,Nom|Person=3|PronType=Int,Rel	39	nsubj	_	_	O
+36	nu	nu	PART	Qz	Polarity=Neg	39	advmod	_	_	O
+37	și-	sine	PRON	Px3--d--y-----w	Case=Dat|Person=3|PronType=Prs|Reflex=Yes|Strength=Weak|Variant=Short	39	expl:poss	_	SpaceAfter=No	O
+38	au	avea	AUX	Va--3p	Number=Plur|Person=3	39	aux	_	_	O
+39	exercitat	exercita	VERB	Vmp--sm	Gender=Masc|Number=Sing|VerbForm=Part	32	acl	_	_	O
+40	dreptul	drept	NOUN	Ncmsry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing	39	obj	_	_	O
+41	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	42	case	_	_	O
+42	eligibilitate	eligibilitate	NOUN	Ncfsrn	Case=Acc,Nom|Definite=Ind|Gender=Fem|Number=Sing	40	nmod	_	SpaceAfter=No	O
+43	,	,	PUNCT	COMMA	_	45	punct	_	_	O
+44	conform	conform	ADP	Spsd	AdpType=Prep|Case=Dat	45	case	_	_	O
+45	anexei	anexă	NOUN	Ncfsoy	Case=Dat,Gen|Definite=Def|Gender=Fem|Number=Sing	39	obl	_	_	O
+46	care	care	PRON	Pw3--r	Case=Acc,Nom|Person=3|PronType=Int,Rel	47	nsubj	_	_	O
+47	face	face	VERB	Vmip3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	45	acl	_	_	O
+48	parte	parte	NOUN	Ncfsrn	Case=Acc,Nom|Definite=Ind|Gender=Fem|Number=Sing	47	obj	_	_	O
+49	integrantă	integrantă	ADJ	Afpfsrn	Case=Acc,Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	48	amod	_	_	O
+50	din	din	ADP	Spsa	AdpType=Prep|Case=Acc	52	case	_	_	O
+51	prezentul	prezent	ADJ	Afpmsry	Case=Acc,Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	52	amod	_	_	O
+52	ordin	ordin	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	48	nmod	_	SpaceAfter=No	O
+53	.	.	PUNCT	PERIOD	_	5	punct	_	SpacesAfter=\r\n	O
+
+# sent_id = 8
+# text = (2) Prețurile reglementate prevăzute la alin. (1) se aplică clienților casnici ale căror locuri de consum sunt amplasate în localitatea Zimnicea, aparținătoare municipiului Zimnicea, județul Teleorman, pentru care Societatea PREMIER ENERGY - S.R.L. deține licența de distribuție și de furnizare a gazelor naturale și care optează pentru un astfel de preț.
+1	(	(	PUNCT	LPAR	_	2	punct	_	SpaceAfter=No	O
+2	2	2	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	13	parataxis	_	SpaceAfter=No	O
+3	)	)	PUNCT	RPAR	_	2	punct	_	_	O
+4	Prețurile	preț	NOUN	Ncfpry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Plur	13	nsubj:pass	_	_	O
+5	reglementate	reglementat	ADJ	Afpfp-n	Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	_	O
+6	prevăzute	prevedea	VERB	Vmp--pf	Gender=Fem|Number=Plur|VerbForm=Part	4	amod	_	_	O
+7	la	la	ADP	Spsa	AdpType=Prep|Case=Acc	8	case	_	_	O
+8	alin.	alin.	NOUN	Yn	Abbr=Yes	6	obl	_	_	O
+9	(	(	PUNCT	LPAR	_	10	punct	_	SpaceAfter=No	O
+10	1	1	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	8	nummod	_	SpaceAfter=No	O
+11	)	)	PUNCT	RPAR	_	10	punct	_	_	O
+12	se	sine	PRON	Px3--a--------w	Case=Acc|Person=3|PronType=Prs|Reflex=Yes|Strength=Weak	13	expl:pass	_	_	O
+13	aplică	aplica	VERB	Vmis3s	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_	O
+14	clienților	client	NOUN	Ncmpoy	Case=Dat,Gen|Definite=Def|Gender=Masc|Number=Plur	13	iobj	_	_	O
+15	casnici	casnic	ADJ	Afpmp-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur	14	amod	_	_	O
+16	ale	al	DET	Tsfp	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	18	det	_	_	O
+17	căror	care	DET	Dw3-po---e	Case=Dat,Gen|Number=Plur|Person=3|Position=Prenom|PronType=Int,Rel	18	det	_	_	O
+18	locuri	loc	NOUN	Ncfp-n	Definite=Ind|Gender=Fem|Number=Plur	14	nmod	_	_	O
+19	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	20	case	_	_	O
+20	consum	consum	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	18	nmod	_	_	O
+21	sunt	fi	AUX	Vaip3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	aux:pass	_	_	O
+22	amplasate	amplasa	VERB	Vmp--pf	Gender=Fem|Number=Plur|VerbForm=Part	13	ccomp	_	_	O
+23	în	în	ADP	Spsa	AdpType=Prep|Case=Acc	24	case	_	_	O
+24	localitatea	localitate	NOUN	Ncfsry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing	22	obl	_	_	O
+25	Zimnicea	Zimnicea	PROPN	Np	_	24	nmod	_	SpaceAfter=No	B-LOC
+26	,	,	PUNCT	COMMA	_	27	punct	_	_	O
+27	aparținătoare	aparținător	ADJ	Afpf--n	Definite=Ind|Degree=Pos|Gender=Fem	24	amod	_	_	O
+28	municipiului	municipiu	NOUN	Ncmsoy	Case=Dat,Gen|Definite=Def|Gender=Masc|Number=Sing	27	iobj	_	_	O
+29	Zimnicea	Zimnicea	PROPN	Np	_	28	nmod	_	SpaceAfter=No	B-LOC
+30	,	,	PUNCT	COMMA	_	27	punct	_	_	O
+31	județul	județ	NOUN	Ncmsry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing	22	nsubj:pass	_	_	O
+32	Teleorman	Teleorman	PROPN	Np	_	31	nmod	_	SpaceAfter=No	B-LOC
+33	,	,	PUNCT	COMMA	_	41	punct	_	_	O
+34	pentru	pentru	ADP	Spsa	AdpType=Prep|Case=Acc	35	case	_	_	O
+35	care	care	PRON	Pw3--r	Case=Acc,Nom|Person=3|PronType=Int,Rel	41	obl	_	_	O
+36	Societatea	societate	NOUN	Ncfsry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing	41	nsubj	_	_	B-ORG
+37	PREMIER	premier	PROPN	Np	_	36	nmod	_	_	I-ORG
+38	ENERGY	Energy	PROPN	Np	_	37	flat	_	_	I-ORG
+39	-	-	PUNCT	DASH	_	37	punct	_	_	I-ORG
+40	S.R.L.	S.R.L.	PROPN	Np	_	37	conj	_	_	I-ORG
+41	deține	deține	VERB	Vmip3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	acl	_	_	O
+42	licența	licență	NOUN	Ncfsry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing	41	obj	_	_	O
+43	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	44	case	_	_	O
+44	distribuție	distribuție	NOUN	Ncfsrn	Case=Acc,Nom|Definite=Ind|Gender=Fem|Number=Sing	42	nmod	_	_	O
+45	și	și	CCONJ	Crssp	Polarity=Pos	47	cc	_	_	O
+46	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	47	case	_	_	O
+47	furnizare	furnizare	NOUN	Ncfsrn	Case=Acc,Nom|Definite=Ind|Gender=Fem|Number=Sing	44	conj	_	_	O
+48	a	al	DET	Tsfs	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	49	det	_	_	O
+49	gazelor	gaz	NOUN	Ncfpoy	Case=Dat,Gen|Definite=Def|Gender=Fem|Number=Plur	44	nmod	_	_	O
+50	naturale	natural	ADJ	Afpfp-n	Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	49	amod	_	_	O
+51	și	și	CCONJ	Crssp	Polarity=Pos	53	cc	_	_	O
+52	care	care	PRON	Pw3--r	Case=Acc,Nom|Person=3|PronType=Int,Rel	53	nsubj	_	_	O
+53	optează	opta	VERB	Vmip3	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	49	acl	_	_	O
+54	pentru	pentru	ADP	Spsa	AdpType=Prep|Case=Acc	58	case	_	_	O
+55	un	un	DET	Timsr	Case=Acc,Nom|Gender=Masc|Number=Sing|PronType=Ind	58	det	_	_	O
+56	astfel	astfel	ADV	Rgp	Degree=Pos	58	amod	_	_	O
+57	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	56	fixed	_	_	O
+58	preț	preț	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	53	obl	_	SpaceAfter=No	O
+59	.	.	PUNCT	PERIOD	_	13	punct	_	SpacesAfter=\r\n	O
+
+# sent_id = 9
+# text = (3) Prețurile reglementate prevăzute la alin. (1) nu conțin acciza pentru gazul natural și TVA.
+1	(	(	PUNCT	LPAR	_	2	punct	_	SpaceAfter=No	O
+2	3	3	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	13	parataxis	_	SpaceAfter=No	O
+3	)	)	PUNCT	RPAR	_	2	punct	_	_	O
+4	Prețurile	preț	NOUN	Ncfpry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Plur	13	nsubj	_	_	O
+5	reglementate	reglementat	ADJ	Afpfp-n	Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	_	O
+6	prevăzute	prevedea	VERB	Vmp--pf	Gender=Fem|Number=Plur|VerbForm=Part	4	amod	_	_	O
+7	la	la	ADP	Spsa	AdpType=Prep|Case=Acc	8	case	_	_	O
+8	alin.	alin.	NOUN	Yn	Abbr=Yes	6	obl	_	_	O
+9	(	(	PUNCT	LPAR	_	10	punct	_	SpaceAfter=No	O
+10	1	1	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	8	nummod	_	SpaceAfter=No	O
+11	)	)	PUNCT	RPAR	_	10	punct	_	_	O
+12	nu	nu	PART	Qz	Polarity=Neg	13	advmod	_	_	O
+13	conțin	conține	VERB	Vmip3	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_	O
+14	acciza	acciză	NOUN	Ncfsry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing	13	obj	_	_	O
+15	pentru	pentru	ADP	Spsa	AdpType=Prep|Case=Acc	16	case	_	_	O
+16	gazul	gaz	NOUN	Ncmsry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing	14	nmod	_	_	O
+17	natural	natural	ADJ	Afpms-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_	O
+18	și	și	CCONJ	Crssp	Polarity=Pos	19	cc	_	_	O
+19	TVA	taxa_pe_valoare_adăugată	NOUN	Yn	Abbr=Yes	16	conj	_	SpaceAfter=No	O
+20	.	.	PUNCT	PERIOD	_	13	punct	_	SpacesAfter=\r\n	O
+
+# sent_id = 10
+# text = Articolul 2
+1	Articolul	articol	NOUN	Ncmsry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	_	O
+2	2	2	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	1	nummod	_	SpacesAfter=\r\n\r\n	O
+
+# newpar
+# sent_id = 11
+# text = Societatea PREMIER ENERGY - S.R.L. va duce la îndeplinire prevederile prezentului ordin, iar compartimentele de resort din cadrul Autorității Naționale de Reglementare în Domeniul Energiei vor urmări respectarea acestora.
+1	Societatea	societate	NOUN	Ncfsry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing	7	nsubj	_	_	B-ORG
+2	PREMIER	premier	PROPN	Np	_	1	nmod	_	_	I-ORG
+3	ENERGY	Energy	PROPN	Np	_	2	flat	_	_	I-ORG
+4	-	-	PUNCT	DASH	_	1	punct	_	_	I-ORG
+5	S.R.L.	S.R.L.	PROPN	Np	_	1	nmod	_	_	I-ORG
+6	va	vrea	AUX	Va--3s	Number=Sing|Person=3	7	aux	_	_	O
+7	duce	duce	VERB	Vmnp	Tense=Pres|VerbForm=Inf	0	root	_	_	O
+8	la	la	ADP	Spsa	AdpType=Prep|Case=Acc	9	case	_	_	O
+9	îndeplinire	îndeplinire	NOUN	Ncfsrn	Case=Acc,Nom|Definite=Ind|Gender=Fem|Number=Sing	7	nmod:pmod	_	_	O
+10	prevederile	prevedere	NOUN	Ncfpry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Plur	9	nmod	_	_	O
+11	prezentului	prezent	ADJ	Afpmsoy	Case=Dat,Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_	O
+12	ordin	ordin	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No	O
+13	,	,	PUNCT	COMMA	_	28	punct	_	_	O
+14	iar	iar	ADV	Rc	_	28	cc	_	_	O
+15	compartimentele	compartiment	NOUN	Ncfpry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Plur	28	nsubj	_	_	O
+16	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	17	case	_	_	O
+17	resort	resort	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	15	nmod	_	_	O
+18	din	din	ADP	Spsa	AdpType=Prep|Case=Acc	20	case	_	_	O
+19	cadrul	cadru	NOUN	Ncmsry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing	18	fixed	_	_	O
+20	Autorității	autoritate	NOUN	Ncfsoy	Case=Dat,Gen|Definite=Def|Gender=Fem|Number=Sing	15	nmod	_	_	B-ORG
+21	Naționale	național	ADJ	Afpfson	Case=Dat,Gen|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_	I-ORG
+22	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	23	case	_	_	I-ORG
+23	Reglementare	reglementare	NOUN	Ncfsrn	Case=Acc,Nom|Definite=Ind|Gender=Fem|Number=Sing	20	nmod	_	_	I-ORG
+24	în	în	ADP	Spsa	AdpType=Prep|Case=Acc	25	case	_	_	I-ORG
+25	Domeniul	domeniu	NOUN	Ncmsry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing	20	nmod	_	_	I-ORG
+26	Energiei	energie	PROPN	Npfsoy	Case=Dat,Gen|Definite=Def|Gender=Fem|Number=Sing	25	nmod	_	_	I-ORG
+27	vor	vrea	AUX	Va--3p	Number=Plur|Person=3	28	aux	_	_	O
+28	urmări	urmări	VERB	Vmnp	Tense=Pres|VerbForm=Inf	7	conj	_	_	O
+29	respectarea	respectare	NOUN	Ncfsry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing	28	obj	_	_	O
+30	acestora	acesta	PRON	Pd3-po	Case=Dat,Gen|Number=Plur|Person=3|PronType=Dem	29	nmod	_	SpaceAfter=No	O
+31	.	.	PUNCT	PERIOD	_	7	punct	_	SpacesAfter=\r\n	O
+
+# sent_id = 12
+# text = Articolul 3
+1	Articolul	articol	NOUN	Ncmsry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	_	O
+2	3	3	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	1	nummod	_	SpacesAfter=\r\n\r\n	O
+
+# newpar
+# sent_id = 13
+# text = La data intrării în vigoare a prezentului ordin se abrogă Ordinul președintelui Autorității Naționale de Reglementare în Domeniul Energiei nr. 143 / 2019 privind aprobarea prețurilor reglementate pentru activitatea de furnizare a gazelor naturale în regim reglementat realizată de Societatea PREMIER ENERGY - S.R.L. în calitate de operator desemnat să preia operarea sistemului de distribuție a gazelor naturale din localitatea Zimnicea, aparținătoare municipiului Zimnicea, județul Teleorman, publicat în Monitorul Oficial al României, Partea I, nr. 521 din 26 iunie 2019.
+1	La	la	ADP	Spsa	AdpType=Prep|Case=Acc	2	case	_	_	O
+2	data	dată	NOUN	Ncfsry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing	10	obl	_	_	O
+3	intrării	intrare	NOUN	Ncfsoy	Case=Dat,Gen|Definite=Def|Gender=Fem|Number=Sing	2	nmod	_	_	O
+4	în	în	ADP	Spsa	AdpType=Prep|Case=Acc	3	advmod	_	_	O
+5	vigoare	vigoare	NOUN	Ncfsrn	Case=Acc,Nom|Definite=Ind|Gender=Fem|Number=Sing	4	fixed	_	_	O
+6	a	al	DET	Tsfs	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det	_	_	O
+7	prezentului	prezent	ADJ	Afpmsoy	Case=Dat,Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_	O
+8	ordin	ordin	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	_	O
+9	se	sine	PRON	Px3--a--------w	Case=Acc|Person=3|PronType=Prs|Reflex=Yes|Strength=Weak	10	expl:pass	_	_	O
+10	abrogă	abroga	VERB	Vmis3s	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_	O
+11	Ordinul	ordin	NOUN	Ncmsry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing	10	nsubj:pass	_	_	B-LAW
+12	președintelui	președinte	NOUN	Ncmsoy	Case=Dat,Gen|Definite=Def|Gender=Masc|Number=Sing	11	nmod	_	_	I-LAW
+13	Autorității	autoritate	NOUN	Ncfsoy	Case=Dat,Gen|Definite=Def|Gender=Fem|Number=Sing	12	nmod	_	_	I-LAW
+14	Naționale	național	ADJ	Afpfson	Case=Dat,Gen|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_	I-LAW
+15	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	16	case	_	_	I-LAW
+16	Reglementare	reglementare	NOUN	Ncfsrn	Case=Acc,Nom|Definite=Ind|Gender=Fem|Number=Sing	13	nmod	_	_	I-LAW
+17	în	în	ADP	Spsa	AdpType=Prep|Case=Acc	18	case	_	_	I-LAW
+18	Domeniul	domeniu	NOUN	Ncmsry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing	13	nmod	_	_	I-LAW
+19	Energiei	energie	PROPN	Npfsoy	Case=Dat,Gen|Definite=Def|Gender=Fem|Number=Sing	18	nmod	_	_	I-LAW
+20	nr.	nr.	NOUN	Yn	Abbr=Yes	18	nmod	_	_	I-LAW
+21	143	143	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	20	nummod	_	_	I-LAW
+22	/	/	SYM	SLASH	AdpType=Prep	20	punct	_	_	I-LAW
+23	2019	2019	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	20	nummod	_	_	I-LAW
+24	privind	privind	ADP	Spsa	AdpType=Prep|Case=Acc	25	case	_	_	O
+25	aprobarea	aprobare	NOUN	Ncfsry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing	18	nmod	_	_	O
+26	prețurilor	preț	NOUN	Ncfpoy	Case=Dat,Gen|Definite=Def|Gender=Fem|Number=Plur	25	nmod	_	_	O
+27	reglementate	reglementa	VERB	Vmp--pf	Gender=Fem|Number=Plur|VerbForm=Part	26	acl	_	_	O
+28	pentru	pentru	ADP	Spsa	AdpType=Prep|Case=Acc	29	case	_	_	O
+29	activitatea	activitate	NOUN	Ncfsry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing	27	obl	_	_	O
+30	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	31	case	_	_	O
+31	furnizare	furnizare	NOUN	Ncfsrn	Case=Acc,Nom|Definite=Ind|Gender=Fem|Number=Sing	29	nmod	_	_	O
+32	a	al	DET	Tsfs	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	33	det	_	_	O
+33	gazelor	gaz	NOUN	Ncfpoy	Case=Dat,Gen|Definite=Def|Gender=Fem|Number=Plur	31	nmod	_	_	O
+34	naturale	natural	ADJ	Afpfp-n	Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	33	amod	_	_	O
+35	în	în	ADP	Spsa	AdpType=Prep|Case=Acc	36	case	_	_	O
+36	regim	regim	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	33	nmod	_	_	O
+37	reglementat	reglementat	ADJ	Afpms-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	36	amod	_	_	O
+38	realizată	realiza	VERB	Vmp--sf	Gender=Fem|Number=Sing|VerbForm=Part	29	acl	_	_	O
+39	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	40	case	_	_	O
+40	Societatea	societate	NOUN	Ncfsry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing	38	nmod:agent	_	_	O
+41	PREMIER	premier	PROPN	Np	_	40	nmod	_	_	B-ORG
+42	ENERGY	Energy	PROPN	Np	_	41	flat	_	_	I-ORG
+43	-	-	PUNCT	DASH	_	44	punct	_	_	I-ORG
+44	S.R.L.	S.R.L.	NOUN	Yn	Abbr=Yes	40	nmod	_	_	I-ORG
+45	în	în	ADP	Spsa	AdpType=Prep|Case=Acc	48	case	_	_	O
+46	calitate	calitate	NOUN	Ncfsrn	Case=Acc,Nom|Definite=Ind|Gender=Fem|Number=Sing	45	fixed	_	_	O
+47	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	45	fixed	_	_	O
+48	operator	operator	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	38	obl	_	_	O
+49	desemnat	desemnat	VERB	Vmp--sm	Gender=Masc|Number=Sing|VerbForm=Part	48	acl	_	_	O
+50	să	să	PART	Qs	Mood=Sub	51	mark	_	_	O
+51	preia	prelua	VERB	Vmsp3	Mood=Sub|Person=3|Tense=Pres|VerbForm=Fin	49	xcomp	_	_	O
+52	operarea	operare	NOUN	Ncfsry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing	51	obj	_	_	O
+53	sistemului	sistem	NOUN	Ncmsoy	Case=Dat,Gen|Definite=Def|Gender=Masc|Number=Sing	52	nmod	_	_	O
+54	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	55	case	_	_	O
+55	distribuție	distribuție	NOUN	Ncfsrn	Case=Acc,Nom|Definite=Ind|Gender=Fem|Number=Sing	53	nmod	_	_	O
+56	a	al	DET	Tsfs	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	57	det	_	_	O
+57	gazelor	gaz	NOUN	Ncfpoy	Case=Dat,Gen|Definite=Def|Gender=Fem|Number=Plur	55	nmod	_	_	O
+58	naturale	natural	ADJ	Afpfp-n	Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	57	amod	_	_	O
+59	din	din	ADP	Spsa	AdpType=Prep|Case=Acc	60	case	_	_	O
+60	localitatea	localitate	NOUN	Ncfsry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing	57	nmod	_	_	O
+61	Zimnicea	Zimnicea	PROPN	Np	_	60	nmod	_	SpaceAfter=No	B-LOC
+62	,	,	PUNCT	COMMA	_	63	punct	_	_	O
+63	aparținătoare	aparținător	ADJ	Afpf--n	Definite=Ind|Degree=Pos|Gender=Fem	60	amod	_	_	O
+64	municipiului	municipiu	NOUN	Ncmsoy	Case=Dat,Gen|Definite=Def|Gender=Masc|Number=Sing	63	iobj	_	_	O
+65	Zimnicea	Zimnicea	PROPN	Np	_	64	nmod	_	SpaceAfter=No	B-LOC
+66	,	,	PUNCT	COMMA	_	63	punct	_	_	O
+67	județul	județ	NOUN	Ncmsry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing	60	nmod	_	_	O
+68	Teleorman	Teleorman	PROPN	Np	_	67	nmod	_	SpaceAfter=No	B-LOC
+69	,	,	PUNCT	COMMA	_	70	punct	_	_	O
+70	publicat	publica	VERB	Vmp--sm	Gender=Masc|Number=Sing|VerbForm=Part	67	acl	_	_	O
+71	în	în	ADP	Spsa	AdpType=Prep|Case=Acc	72	case	_	_	O
+72	Monitorul	monitor	NOUN	Ncmsry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing	70	obl	_	_	B-ORG
+73	Oficial	oficial	ADJ	Afpms-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	72	amod	_	_	I-ORG
+74	al	al	DET	Tsms	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	75	det	_	_	I-ORG
+75	României	România	PROPN	Npfsoy	Case=Dat,Gen|Definite=Def|Gender=Fem|Number=Sing	72	nmod	_	SpaceAfter=No	I-ORG
+76	,	,	PUNCT	COMMA	_	70	punct	_	_	O
+77	Partea	parte	NOUN	Ncfsry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing	70	obj	_	_	O
+78	I	unu	NUM	Mo-s-r	Number=Sing|NumForm=Roman|NumType=Ord	77	nummod	_	SpaceAfter=No	O
+79	,	,	PUNCT	COMMA	_	77	punct	_	_	O
+80	nr.	nr.	NOUN	Yn	Abbr=Yes	77	nmod	_	_	O
+81	521	521	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	80	nummod	_	_	O
+82	din	din	ADP	Spsa	AdpType=Prep|Case=Acc	84	case	_	_	O
+83	26	26	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	84	nummod	_	_	B-TIME
+84	iunie	iunie	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	77	nmod	_	_	I-TIME
+85	2019	2019	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	84	nummod	_	SpaceAfter=No	I-TIME
+86	.	.	PUNCT	PERIOD	_	10	punct	_	SpacesAfter=\r\n	O
+
+# sent_id = 14
+# text = Articolul 4
+1	Articolul	articol	NOUN	Ncmsry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	_	O
+2	4	4	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	1	nummod	_	SpacesAfter=\r\n\r\n	O
+
+# newpar
+# sent_id = 15
+# text = Prezentul ordin se publică în Monitorul Oficial al României, Partea I, și intră în vigoare la data de 1 octombrie 2019.
+1	Prezentul	prezent	ADJ	Afpmsry	Case=Acc,Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_	O
+2	ordin	ordin	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	4	nsubj:pass	_	_	O
+3	se	sine	PRON	Px3--a--------w	Case=Acc|Person=3|PronType=Prs|Reflex=Yes|Strength=Weak	4	expl:pass	_	_	O
+4	publică	publica	VERB	Vmis3s	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_	O
+5	în	în	ADP	Spsa	AdpType=Prep|Case=Acc	6	case	_	_	O
+6	Monitorul	monitor	NOUN	Ncmsry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing	4	obl	_	_	B-ORG
+7	Oficial	oficial	ADJ	Afpms-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_	I-ORG
+8	al	al	DET	Tsms	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	det	_	_	I-ORG
+9	României	România	PROPN	Npfsoy	Case=Dat,Gen|Definite=Def|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No	I-ORG
+10	,	,	PUNCT	COMMA	_	6	punct	_	_	O
+11	Partea	parte	NOUN	Ncfsry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing	6	nmod	_	_	O
+12	I	unu	NUM	Mo-s-r	Number=Sing|NumForm=Roman|NumType=Ord	11	nummod	_	SpaceAfter=No	O
+13	,	,	PUNCT	COMMA	_	15	punct	_	_	O
+14	și	și	CCONJ	Crssp	Polarity=Pos	15	cc	_	_	O
+15	intră	intra	VERB	Vmis3s	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_	O
+16	în	în	ADP	Spsa	AdpType=Prep|Case=Acc	15	advmod	_	_	O
+17	vigoare	vigoare	NOUN	Ncfsrn	Case=Acc,Nom|Definite=Ind|Gender=Fem|Number=Sing	16	fixed	_	_	O
+18	la	la	ADP	Spsa	AdpType=Prep|Case=Acc	19	case	_	_	O
+19	data	dată	NOUN	Ncfsry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing	15	obl	_	_	O
+20	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	22	case	_	_	O
+21	1	1	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	22	nummod	_	_	B-TIME
+22	octombrie	octombrie	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	19	nmod	_	_	I-TIME
+23	2019	2019	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	22	nummod	_	SpaceAfter=No	I-TIME
+24	.	.	PUNCT	PERIOD	_	4	punct	_	SpacesAfter=\r\n	O
+
+# sent_id = 16
+# text = Președintele Autorității Naționale de Reglementare în Domeniul Energiei, Dumitru Chiriță București, 23 septembrie 2019.
+1	Președintele	președinte	NOUN	Ncmsry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing	0	root	_	_	O
+2	Autorității	autoritate	NOUN	Ncfsoy	Case=Dat,Gen|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	_	B-ORG
+3	Naționale	național	ADJ	Afpfson	Case=Dat,Gen|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_	I-ORG
+4	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	5	case	_	_	I-ORG
+5	Reglementare	reglementare	NOUN	Ncfsrn	Case=Acc,Nom|Definite=Ind|Gender=Fem|Number=Sing	2	nmod	_	_	I-ORG
+6	în	în	ADP	Spsa	AdpType=Prep|Case=Acc	7	case	_	_	I-ORG
+7	Domeniul	domeniu	NOUN	Ncmsry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	_	I-ORG
+8	Energiei	energie	PROPN	Npfsoy	Case=Dat,Gen|Definite=Def|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No	I-ORG
+9	,	,	PUNCT	COMMA	_	10	punct	_	SpacesAfter=\r\n	O
+10	Dumitru	Dumitru	PROPN	Np	_	7	nmod	_	_	B-PER
+11	Chiriță	Chiriță	PROPN	Np	_	10	flat	_	SpacesAfter=\r\n	I-PER
+12	București	București	PROPN	Np	_	10	flat	_	SpaceAfter=No	B-LOC
+13	,	,	PUNCT	COMMA	_	15	punct	_	_	O
+14	23	23	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	15	nummod	_	_	B-TIME
+15	septembrie	septembrie	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	10	nmod	_	_	I-TIME
+16	2019	2019	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	15	nummod	_	SpaceAfter=No	I-TIME
+17	.	.	PUNCT	PERIOD	_	1	punct	_	SpacesAfter=\r\n	O
+
+# sent_id = 17
+# text = Nr. 191. ANEXĂ
+1	Nr.	Nr.	NOUN	Yn	Abbr=Yes	4	nmod	_	_	O
+2	191	191	NUM	Mc-p-d	Number=Plur|NumForm=Digit|NumType=Card	1	nummod	_	SpaceAfter=No	O
+3	.	.	PUNCT	PERIOD	_	1	punct	_	SpacesAfter=\r\n	O
+4	ANEXĂ	anexă	NOUN	Ncfsrn	Case=Acc,Nom|Definite=Ind|Gender=Fem|Number=Sing	0	root	_	SpacesAfter=\r\n\r\n	O
+
+# newpar
+# sent_id = 18
+# text = Prețurile reglementate pentru activitatea de furnizare a gazelor naturale în regim reglementat realizatăde Societatea PREMIER ENERGY - S.R.L. pentru clienții casnici din localitatea Zimnicea, județul Teleorman, care nu și-au exercitat dreptul de eligibilitate -----
+1	Prețurile	preț	NOUN	Ncfpry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Plur	13	nsubj	_	_	O
+2	reglementate	reglementa	VERB	Vmp--pf	Gender=Fem|Number=Plur|VerbForm=Part	1	acl	_	_	O
+3	pentru	pentru	ADP	Spsa	AdpType=Prep|Case=Acc	4	case	_	_	O
+4	activitatea	activitate	NOUN	Ncfsry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing	2	obl	_	_	O
+5	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	6	case	_	_	O
+6	furnizare	furnizare	NOUN	Ncfsrn	Case=Acc,Nom|Definite=Ind|Gender=Fem|Number=Sing	4	nmod	_	_	O
+7	a	al	DET	Tsfs	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det	_	_	O
+8	gazelor	gaz	NOUN	Ncfpoy	Case=Dat,Gen|Definite=Def|Gender=Fem|Number=Plur	6	nmod	_	_	O
+9	naturale	natural	ADJ	Afpfp-n	Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	_	O
+10	în	în	ADP	Spsa	AdpType=Prep|Case=Acc	11	case	_	_	O
+11	regim	regim	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	8	nmod	_	_	O
+12	reglementat	reglementat	ADJ	Afpms-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_	O
+13	realizatăde	realizatăde	VERB	Vmip3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_	O
+14	Societatea	societate	NOUN	Ncfsry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing	13	obj	_	_	O
+15	PREMIER	premier	PROPN	Np	_	14	nmod	_	_	B-ORG
+16	ENERGY	Energy	PROPN	Np	_	15	flat	_	_	I-ORG
+17	-	-	PUNCT	DASH	_	18	punct	_	_	I-ORG
+18	S.R.L.	S.R.L.	PROPN	Np	_	14	nmod	_	_	I-ORG
+19	pentru	pentru	ADP	Spsa	AdpType=Prep|Case=Acc	20	case	_	_	O
+20	clienții	client	NOUN	Ncmpry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Plur	13	obl	_	_	O
+21	casnici	casnic	ADJ	Afpmp-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur	20	amod	_	_	O
+22	din	din	ADP	Spsa	AdpType=Prep|Case=Acc	23	case	_	_	O
+23	localitatea	localitate	NOUN	Ncfsry	Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing	20	nmod	_	_	O
+24	Zimnicea	Zimnicea	PROPN	Np	_	23	nmod	_	SpaceAfter=No	B-LOC
+25	,	,	PUNCT	COMMA	_	26	punct	_	_	O
+26	județul	județ	NOUN	Ncmsry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing	23	conj	_	_	O
+27	Teleorman	Teleorman	PROPN	Np	_	26	nmod	_	SpaceAfter=No	B-LOC
+28	,	,	PUNCT	COMMA	_	33	punct	_	_	O
+29	care	care	PRON	Pw3--r	Case=Acc,Nom|Person=3|PronType=Int,Rel	33	nsubj	_	_	O
+30	nu	nu	PART	Qz	Polarity=Neg	33	advmod	_	_	O
+31	și-	sine	PRON	Px3--d--y-----w	Case=Dat|Person=3|PronType=Prs|Reflex=Yes|Strength=Weak|Variant=Short	33	expl:poss	_	SpaceAfter=No	O
+32	au	avea	AUX	Va--3p	Number=Plur|Person=3	33	aux	_	_	O
+33	exercitat	exercita	VERB	Vmp--sm	Gender=Masc|Number=Sing|VerbForm=Part	26	acl	_	_	O
+34	dreptul	drept	NOUN	Ncmsry	Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing	33	obj	_	_	O
+35	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	36	case	_	_	O
+36	eligibilitate	eligibilitate	NOUN	Ncfsrn	Case=Acc,Nom|Definite=Ind|Gender=Fem|Number=Sing	34	nmod	_	SpacesAfter=\r\n	O
+37	-	-	PUNCT	DASH	_	33	punct	_	SpaceAfter=No	O
+38	-	-	PUNCT	DASH	_	33	punct	_	SpaceAfter=No	O
+39	-	-	PUNCT	DASH	_	13	punct	_	SpaceAfter=No	O
+40	--	--	PUNCT	COMMA	_	13	punct	_	SpaceAfter=No	O
+
+
+

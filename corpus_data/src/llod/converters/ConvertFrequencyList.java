@@ -53,7 +53,8 @@ public class ConvertFrequencyList {
 		}
 		
 		//Pattern allowed=Pattern.compile("[-0-9a-zA-ZăîâșțĂÎÂȘȚ+.,?!%$#@^&*()/:;]+");
-		Pattern notAllowed=Pattern.compile("[^-0-9a-zA-ZăîâșțĂÎÂȘȚ+.,?!%$#@^&*()/:;]+");
+		//Pattern notAllowed=Pattern.compile("[^-0-9a-zA-ZăîâșțĂÎÂȘȚ+.,?!%$#@^&*()/:;]+");
+		Pattern notAllowed=Pattern.compile("[^-0-9a-zA-ZăîâșțĂÎÂȘȚ]+");
 		
 		boolean headerWritten=false;
 		for(String line=in.readLine();line!=null;line=in.readLine()) {
